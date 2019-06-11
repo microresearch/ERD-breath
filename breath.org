@@ -1,0 +1,15 @@
+* breath/smoke module notes
+
+*HP, 40.6 MM
+
+- 2x TIP3055 for power
+- heatsink? say 2W each amp
+- pot offset, pot amp, jack input
+- heat wire over hole surrounded by dragon/worm
+- size of bolts to hold wire -> should not be conducting
+- 2 holes for wire in
+- hole only for power in 2-4A supply (test)
+- inverted triangle UNDER soldermask at bottom if this fits?
+
+
+
