@@ -1,6 +1,6 @@
 * breath/smoke module notes
 
-*HP, 40.6 MM
+8HP, 40.6 MM
 
 - 2x TIP3055 for power
 - heatsink? say 2W each amp
@@ -11,5 +11,380 @@
 - hole only for power in 2-4A supply (test)
 - inverted triangle UNDER soldermask at bottom if this fits?
 
+extra copper thickness on both
 
+nichrome= 0.16mm ??
+
+1.6mm screws
+
+** breath quotes// summoning headless/bornless one ritual
+
+The method is natural, breathing in and breathing out, keeping the
+orders of the method, increasing and decreasing. And all things by
+division and union come together in a harmony, the method not being
+neglected, the Nature is transformed. For the Nature, turning on
+itself, is changed. And the Nature is both the nature of the virtue
+and the bond of the world.
+
+zosimos - http://www.levity.com/alchemy/zosimos.html
+
+In On Excellence, for example, Zosimus likens his “natural” method of
+“growing” colored metals to the natural formation of metals, saying
+that it is like “breathing in and breathing out.” See F.S. Taylor’s
+translation, in The Alchemists, 58.  22
+
+pneuma/breath/spirit
+
+*** from tm text
+
+On the floor of the mourning hall, or copula, of the former
+crematormium which is now silent green Kulturquartier, a single snake
+is depicted in marble, contrasting with pyramidal structures in other
+segments of the central octagon. The snake recalls early eastern
+imagery, from India and Egypt which form the prototype of the caduceus
+(the twinned snakes coiled around the staff) of Hermes (becoming a
+symbol for medicine) and lead to the notion of pneuma, a breath or
+spirit, ascending from or descending into the body. The links to end
+of life rituals, of death and rebirth, are clear (for example, as
+described in the Tibetan Book of the Dead, where the spirit departs
+from the corpse at the crown of the head. This imaginary which again
+marks the beginning of a philosophy of the earth spirit body
+articulated within the alchemical tradition is best explained in this
+lengthy quotation from Jack Lindsay's, "The Origins of Alchemy in
+Graeco-Roman Egypt" [pp. 190-193]:
+
+The rod or staff can be linked in a general way with the sacred Tree,
+Mountain, or Ded-pillar that are prominent in Egyptian mythology and
+ritual; and much light is cast on the inner meaning of these symbols
+by Indian ideas. There we find the idea of an invisible canal called
+nadi in Sanskrit (from nada, movement). Various translations have been
+made of the term: subtle canals (tubes), luminous arteries, psychic
+canals or nerves. There were many nadi, but three chief ones: Ida,
+Pingala, and Susumna. The last-named, the most important, corresponded
+to the vertebral column, Brahma-danda: "the microcosm of the
+macrocosm." It was the great road for the movement of the spiritual
+forces of the body; and around it were twined, like the two snakes on
+Hermes' staff, the two other nadi, Ida on the left, female and
+passive, and Pingala on the right, male and active. On the top of
+Susumna, at a point corresponding to the top of the skull, shone the
+Sun. Along the central axis were located six main centres or cakras
+(circles, wheels, represented in the shamanist rituals of Central Asia
+by the six cuts made in the Tree before which the shaman falls in his
+possessed fit of initiation and which in turn represent the six
+heavens through which he ascends, with mimed episodes at each stage.)
+At the base of the spine, like a snake coiled in its spirals, sleeps
+Kundalini, the "igneous serpentine power", which awakens during the
+initiation and rises up, from base to top, through the various cakras
+till it reaches Sahasrara, located at the suture on the crown where
+the two parietal bones meet. This aperture, the Brahme
+(Brahme-randhra), is the place where "the Sun rises." The original
+text thus expresses the imagery: "The Bride [Kundalini] entering into
+the Royal Highway [the central nadi] and resting at certain spots [the
+six cakras] meets and embraces the Supreme Bridegroom and in the
+embrace makes springs of nectar gush out." A Brahmin of Malabar,
+speaking of the Dravidian caduceus, said, "The snakes that enlace
+represent the two currents that run, in opposite directions, along the
+spine."
+
+But can we definitely transport these notions into ancient Egypt? It
+seems that we can. Take such a representation as that from the tomb of
+Ramses VI of a staff on which stands a mummified figure; between him
+and the staff-top is a pair of horns, and wriggling across the staff,
+lower down, in opposite directions, are two snakes. The dead man, at
+the last Hour in the Book of the Underworld, leaves his mortal
+remains, sloughs them, and is reborn as the scarab Khepri. A stele
+sets out the idea: "Homage to you, Mummy, that are perpetually
+rejuvenated and reborn." The horns on top of the staff are called Wpt,
+"summit of the skull, to open, divide separate" -- that is, the
+parietal bones are thought of as opening to release the reborn
+dead-man. Wpt also means the Zenith of the Heaven. A figure in the
+tomb of Osorkon II at Tanis stands with a snake in each hand; the
+snakes criss-cross in their undulant movement, forming an X across the
+body. A symbol often cut on scarabs and scaraboids is that of the Ded
+pillar with a snake hanging on either side, the heads going in
+opposite directions. The word Imakh (Blessed) in its ending and
+especially in its determinative is represented by the spinal column
+with an indication of the medulla; the ending also denotes the canal
+or channel of the spine of the snake through which the Sun passes --
+the Night Sun in the Underworld. So the one symbol brings together the
+ideas of Blessedness, Spine, Spinal Canal (of the Sun). The Sun
+emerging at the end of the snake staff is both the dead man reborn and
+the newborn Sun (Khepri); the dead man emerges from the spinal column
+at the top of the skull, and is reborn - the sun emerges from the
+spinal night-canal and is reborn; the dead man and the sun are one. We
+may add that Sa, which means the Back, the Spine, and which enters
+into the god name Besa, is homonymous with Sa, which means Protection.
+The determinate connected with Imakh appears also in Pesedj, which
+takes on the meaning of both Spine and Illumination - a meaning attested
+from the time of the Pyramid Texts. The root Ima of Imakh merges again
+with the homonymous Tree assimilated to the Ded-pillar and expressing
+the luminosity of the sun.
+
+We see, then, in ancient Egyptian thought a system closely analogous to
+that of India which we discussed. The individual spine and the
+world-pillar are identified; there is a concept of life-forces moving up
+and down this axis; the skull top is also the sky-zenith; the new birth
+of the life-force is one with the rising of the sun. The
+microcosm-macrocosm relationship is very close to what we find in
+alchemy, but with the latter the whole system operates on a new and
+higher level of philosophic and scientific thinking.
+
+In Greek thought we do not find anything so precise as the systems in
+Sanskrit and Egyptian; but with the growth of ideas about the pervasive
+pneuma the notion of forces descending into the body and ascending out
+of it appears. Porphyrios cites an Oracle of Apollo:
+
+The stream separating from Phoibos' splendour on high 
+and enveloped in the pure Air's sonorous breath 
+falls enchanted by songs and by ineffable words 
+about the Head of the blameless recipient:
+it fills the soft integument of the tender membranes, 
+ascends through the Stomach and rises up again 
+and produces a lovely song from the mortal pipe.
+
+Porphyrios comments that the descending pneuma enters into the body,
+ "and, using the soul as a base, gives out a sound through the mouth as
+through an instrument." We are reminded of the ecstatic noises of the
+Gnostics which were thought to echo the music of the spheres. The lovely
+song from the mortal aulos seems to go straight up to the celestial
+source of pneuma in the sun. The down-and-up, up-and-down pattern is
+completed.
+
+Perhaps a confused version of the ideas we saw associated with Imakh,
+Sa, Pesedj, appears in a magical intaglio of terracotta where we see a
+serpent twining round a star-topped staff; parallel with the staff rise
+an altar surmounted with a staff (starred at either end) on the right
+and a schematic human form standing on its head on the left. Here there
+seems depicted an up-and-down flow of forces. On a blue-flecked onyx a
+monstrous figure (with scarab-body, human legs, head of a maned animal)
+stands crowned, holding in each hand a staff round which a snake twines.
+One staff has a goat-head, the other a dog-head; and under the
+creature's feet is an Ouroboros enclosing a man, perhaps ithyphallic,
+and what seems a thunderbolt. The head of the Ouroboros is down at the
+bottom. The crown is made of a disk set on long horns and flanked with
+four uraei. There seem here defined two contrary motions: one of the
+scarab-sun (upwards to the large crown), and one of the cosmic serpent
+(downwards into the underworld of death). Interpretation of such obscure
+objects cannot but be doubtful, though there does seem a link with the
+complex of ideas and images we have discussed. A passage in
+Hippolytos' account of the Peratai [a gnostic sect - Dan] also reveals
+this complex in a slightly confused form. He is discussing an
+up-and-down movement. The Son, he says, brings down from above the
+paternal Signs and again carries aloft those Signs when they have been
+"roused from a dormant condition and made into paternal characteristics
+-- substantial from unsubstantial being; transferring them hither from
+thence". The Son's cerebellum is "in the form of a Serpent", that is, a
+serpent-head, "and they allege that this, by an ineffable and
+inscrutable process, attracts through the pineal gland the pneumatic and
+life-giving substance emanating from the vaulted chamber [? both the
+skull and the heavenly vault]. And on receiving this, the cerebellum in
+an ineffable way imparts the Idea, just as the Son does, to Matter; or,
+in other words, the seeds and genera of things produced according to the
+flesh flow along into the spinal marrow." Though the description is
+unclear, the idea of an up-and-down, down-and-up flow of pneuma is
+certainly present, as also that of an entry of divine force through the
+cerebellum into the spinal column. The Peratai thus interpreted the
+phrase, "I am the Door," in John.
+
+We may add that the idea of the staff of Hermes as a resolving or
+balancing power between two opposing principles (the snakes) appears in
+a tale, given by Hyginus, that Mercury saw two snakes fighting in
+Arcadia and put his staff between them, thus arresting the conflict;
+hence the caduceus as an emblem of peace.
+
+*** messene
+
+*** zosimos
+
+In his Letter to Anebo, Porphyry implies that theurgists are confused about the nature of
+the gods, since they seem to hold that immaterial gods are attracted by material sacrifices
+(Iamblichus, De Mysteriis, 211.19-212.3, ed. des Places). In On the Abstinence of Animal Food
+he goes further: the true objects of blood sacrifices are daimons, disguised as divinities. He
+holds that the pneumatic bodies of daimons are replenished by the sacrificial smoke, a view
+which Zosimos also holds—and with great anxiety—but which Iamblichus rejects (see note 36
+infra). For further discussion see especially Shaw, Theurgy and the Soul, 129ff.
+2
+
+Zosimos_of_Panopolis_and_the_Book_of_Eno.txt
+
+Zosimos holds the view that the daimons which inhabit the upper
+regions of the world are nourished by the smoke of sacrifice, and so
+are dependent upon the offerings of human worshippers. There is an
+implication that the airy bodies of these daimons are actually
+replenished by the sacrificial vapours, a
+
+where is this daimons bit?
+
+When the [daimonic] guardians are driven off from the great men they [sc. the
+daimons] deliberate as to how they may lay claim to our natural tinctures, so
+as not to be driven away by men, but venerated and invoked, and nourished
+with sacrifices. This is what they did. They concealed all the natural and self-
+regulating tinctures (ta physika kai automata), not only out of envy, but giving
+heed also to their own sustenance, so that they would not be whipped, chased
+away, and punished with hunger through the cessation of the sacrifices. They
+acted as follows. They hid the natural tincture and introduced their non-natural
+tincture, and gave these to their priests; and if the common people were neglect-
+ful of the sacrifices, they hindered them even in attaining the non-natural tinc-
+tures (Fest. p. 366, ll. 18-26) 35 .
+
+Zosimos holds the view that the daimons..,
+
+in final session/quittance
+
+*** porphyry
+
+De Abstinentia
+
+... evil daemons trick their suppli-ants into thinking that they are
+worshipping gods and gorge on the smoky vapors from sacrificial
+ceremonies in order to fatten their pneumatic bodies 2,36,6.
+
+cording to Porphyry, the evil daimones “rejoice in the ́drink-offerings
+and smoking meat ́ on which their pneumatic part grows fat, for it
+lives on vapours and exhalations, in a complex fashion and from
+complex sources, and it draws power from the smoke that rises from
+blood and fl esh.” ( ibid . 2.42.3). 
+
+*** 
+
+/// Fragments of Empedocles 
+
+They behold but a brief span of a life that is no life, and, doomed
+to swift death, are borne up and fly off like smoke.
+
+*** pgm 
+
+**** add notebook notes/skinner
+
+**** PGM search
+
+0 Fire-walker, PENTITEROUNI,
+Light-maker (others: Encloser), SEMESILAM,
+Fire-breather, PSYRINPHEU,
+Fire-feeler, I A ~ ,
+Light-breather, OAI,
+Fire-dclighter, ELOURE,
+Beautiful light, AZAI,
+Aion, ACHBA,
+1 Light-master, PEPPER PREPEMPIPI?
+Fire-body, PHNOUBNIOCH,
+Light-giver, . . .
+
+Star-coursing, heahly, torch-bearcr, fire-breather, I
+Woman four-faced, four-named, four-roads' mistress.
+Hail, goddcss, and attend your epithets,
+
+who
+. . . . . .has
+. . . .died!
+. . . . . .h
+. . a. .k. .e. .n. .to
+. . .me,
+. . . . .awaken
+. . . . . . . . .to
+. . .mc,
+....0
+. . . soul
+. . . . . .of
+. . .life,
+. . . . .0. . soul
+. . . . . .of
+. . .breath!
+. . . . . . . . Let
+...
+
+
+
+
+
+** blurb/manual as panel or as????
+
+The method is natural, breathing in and breathing out, keeping the
+orders of the method, increasing and decreasing. And all things by
+division and union come together in a harmony, the method not being
+neglected, the Nature is transformed. For the Nature, turning on
+itself, is changed. And the Nature is both the nature of the virtue
+and the bond of the world.
+
+[Zosimos of Panoplis. Text=the composition...]
+
+They behold but a brief span of a life that is no life, and, doomed
+to swift death, are borne up and fly off like smoke
+
+[Fragments of Empedocles]
+
+ERD/BREATH is designed for the precise voltage control (CV) of heat and thus smoke
+production within a modular, eurorack setting. 
+
+ERD/BREATH allows for controlled summoning and nourishment of
+(artificial and benevolent) demons, for the offering of sacrificial
+vapours, and for any modular use of multiple incenses or other
+smoke-producing resins, herbs and substances. A small sample of sage
+is included for preliminary cleansing of the modular.
+
+The burnt offering is a wolf's eye, storax gum, cassia, balsam gum and
+whatever is valued among the spices.
+
+One CV input is provided with amplification (upper) and offset knobs
+(lower) for more precise control of heat and smoke modulations. Slowly
+changing CV inputs, pulses and slopes are suggested. 
+
+One DC JACK output (right hand) is supplied for connection to an
+external heating element (a 12cm+ coil of 0.2mm nichrome wire for
+example).
+
+ERD/BREATH does not itself produce amplified sound but could be paired
+with a contact mic or Mikrophonie module, or used with a light to
+sound setup.
+
+This module requires a 12-15V, 2A+ brick power supply with a centre
+positive 2.1mm DC jack plug. This is not included.  (example psu)
+
+The power is plugged on the left side DC JACK.
+
+It is definitely not advised to leave the module connected to this
+external supply whilst the modular is unattended.
+
+*** Technical and HOWTO
+
+8HP, XXmA at +12V, XXmA at -12V, 0mA at 5v. One CV input, Xmm deep. One output for an external heating element.
+
+This module requires a 12-15V, 2A+ brick power supply with a centre positive 2.1mm DC jack plug. This is not included.
+
+Manual, code and design files at: 
+
+
+*** reading list/bibliography
+
+In his Letter to Anebo, Porphyry implies that theurgists are confused about the nature of
+the gods, since they seem to hold that immaterial gods are attracted by material sacrifices
+(Iamblichus, De Mysteriis, 211.19-212.3, ed. des Places). In On the Abstinence of Animal Food
+
+PGM
+
+Zosimos
+
+De Abstinentia
+
+Fragments of Empedocles 
+
+Skinner
+
+
+
+
+** add incenses also // sage/copal
+
+** costs
+
+pcb x2: 20 say // for 25=300euros=12each
+basic parts: x10=60.6each
+potsx2/knobsx2/jack socketx1: 3
+bolts=26for100=/nichrome = 5
+
+say 30 each
+
+postage/paypal 30
+
+total costs: 60 each - so say 195 each
 
