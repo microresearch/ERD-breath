@@ -306,32 +306,30 @@ neglected, the Nature is transformed. For the Nature, turning on
 itself, is changed. And the Nature is both the nature of the virtue
 and the bond of the world.
 
-[Zosimos of Panoplis. Text=the composition...]
+[Visions. Zosimos of Panoplis.]
 
 They behold but a brief span of a life that is no life, and, doomed
 to swift death, are borne up and fly off like smoke
 
 [Fragments of Empedocles]
 
-ERD/BREATH is designed for the precise voltage control (CV) of heat and thus smoke
-production within a modular, eurorack setting. 
+ERD/BREATH is designed for the precise voltage control (CV) of heat
+and thus smoke production within a modular, eurorack setting.
 
 ERD/BREATH allows for controlled summoning and nourishment of
 (artificial and benevolent) demons, for the offering of sacrificial
 vapours, and for any modular use of multiple incenses or other
-smoke-producing resins, herbs and substances. A small sample of sage
-is included for preliminary cleansing of the modular.
+smoke-producing resins, herbs and natural substances. A small sample
+of sage is included for preliminary cleansing of the modular environ.
 
-The burnt offering is a wolf's eye, storax gum, cassia, balsam gum and
-whatever is valued among the spices.
+/The burnt offering is a wolf's eye, storax gum, cassia, balsam gum and
+whatever is valued among the spices./
 
 One CV input is provided with amplification (upper) and offset knobs
 (lower) for more precise control of heat and smoke modulations. Slowly
-changing CV inputs, pulses and slopes are suggested. 
-
-One DC JACK output (right hand) is supplied for connection to an
-external heating element (a minimum of 12cm coil of 0.2mm nichrome
-wire for example).
+changing CV inputs, pulses and slopes are suggested. An external
+heating element (a minimum of 12cm coil of 0.2mm nichrome wire for
+example) can be connected to the right hand DC JACK.
 
 ERD/BREATH does not itself produce amplified sound but could be paired
 with a contact mic or Mikrophonie module, or used with a light to
@@ -342,7 +340,7 @@ positive 2.1mm DC jack plug (eg. MEAN WELL GST40A12 Desktop power
 supply). This is not included. The power is plugged on the left side
 DC JACK.
 
-It is definitely not advised to leave the module connected to this
+It is definitely not advised to leave the module connected to the
 external supply whilst the modular is unattended.
 
 *** Technical and HOWTO
@@ -354,26 +352,21 @@ This module requires a 12V, minimum 2A brick power supply with a centre positive
 Manual, code and design files at: https://github.com/microresearch/ERD-breath 
 
 
-*** reading list/bibliography
+*** Reading list
 
-In his Letter to Anebo, Porphyry implies that theurgists are confused about the nature of
-the gods, since they seem to hold that immaterial gods are attracted by material sacrifices
-(Iamblichus, De Mysteriis, 211.19-212.3, ed. des Places). In On the Abstinence of Animal Food
+The Greek Magical Papyri in Translation, Betz, H. D. et al.
 
-Iamblichus, De Mysteriis
+The Fragments of Empedocles .
 
-PGM
+Becoming Gold, Grimes, S.
 
-Zosimos
+De Mysteriis, Iamblichus.
 
-De Abstinentia
+De Abstinentia ab Esu Animalium, Porphyry.
 
-Fragments of Empedocles 
+Techniques of Graeco-Egyptian Magic, Skinner, S.
 
-Skinner
-
-
-
+Visions of Zosimos, Zosimos of Panipolis.
 
 ** add incenses also // sage/copal
 
