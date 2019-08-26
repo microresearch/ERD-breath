@@ -741,7 +741,7 @@ Wire Wire Line
 	6200 3800 6200 3900
 Text Notes 6550 3950 0    79   ~ 0
 protected against wrong plug in
-Text Notes 6350 4500 0    50   ~ 0
+Text Notes 5875 4695 0    50   ~ 0
 0411\n
 Wire Wire Line
 	6305 2530 6405 2530

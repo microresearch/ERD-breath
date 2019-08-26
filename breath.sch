@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Operational:TL084 U1
+L breath-rescue:TL084-Amplifier_Operational U1
 U 5 1 5CF56F40
 P 2800 1950
 F 0 "U1" H 2758 1996 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2850 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U1
+L breath-rescue:TL084-Amplifier_Operational U1
 U 1 1 5CF57011
 P 2800 4350
 F 0 "U1" H 2800 4717 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2850 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U1
+L breath-rescue:TL084-Amplifier_Operational U1
 U 2 1 5CF5707C
 P 3750 4250
 F 0 "U1" H 3750 4617 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3800 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U1
+L breath-rescue:TL084-Amplifier_Operational U1
 U 3 1 5CF5710C
 P 4650 4350
 F 0 "U1" H 4650 4717 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 4700 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R2
+L breath-rescue:R_Small-Device R2
 U 1 1 5CF57239
 P 2350 4900
 F 0 "R2" H 2409 4946 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "~" H 2350 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP_Small C4
+L breath-rescue:CP_Small-Device C4
 U 1 1 5CF57303
 P 3750 2700
 F 0 "C4" H 3890 2755 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "~" H 3750 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C1
+L breath-rescue:C_Small-Device C1
 U 1 1 5CF573BB
 P 3250 1450
 F 0 "C1" H 3342 1496 50  0000 L CNN
@@ -94,7 +94,7 @@ $EndComp
 Text Notes 900  1050 0    157  ~ 0
 euro power, diodes, caps + power in for heat
 $Comp
-L Transistor_BJT:TIP3055 Q2
+L breath-rescue:TIP3055-Transistor_BJT Q2
 U 1 1 5CF57C59
 P 6100 4100
 F 0 "Q2" H 6291 4146 50  0000 L CNN
@@ -105,7 +105,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF" H 6100 4100 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:TIP3055 Q1
+L breath-rescue:TIP3055-Transistor_BJT Q1
 U 1 1 5CF57CB5
 P 5650 4350
 F 0 "Q1" H 5841 4396 50  0000 L CNN
@@ -116,7 +116,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF" H 5650 4350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
+L breath-rescue:Conn_02x05_Odd_Even-Connector_Generic J1
 U 1 1 5CF5749D
 P 4150 2000
 F 0 "J1" H 4200 2417 50  0000 C CNN
@@ -127,7 +127,7 @@ F 3 "~" H 4150 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1
+L breath-rescue:D-Device D1
 U 1 1 5CF57595
 P 3800 1550
 F 0 "D1" H 3800 1766 50  0000 C CNN
@@ -138,7 +138,7 @@ F 3 "~" H 3800 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L erthenvar:AUDIO-JACKERTHENVAR M1
+L breath-rescue:AUDIO-JACKERTHENVAR-erthenvar M1
 U 1 1 5CF578FD
 P 1500 4100
 F 0 "M1" H 1506 4319 45  0000 C CNN
@@ -149,7 +149,7 @@ F 3 "" H 1500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J3
+L breath-rescue:Conn_01x02_Male-Connector J3
 U 1 1 5CF57447
 P 6000 3650
 F 0 "J3" H 6106 3828 50  0000 C CNN
@@ -160,7 +160,7 @@ F 3 "~" H 6000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV2
+L breath-rescue:R_POT-Device RV2
 U 1 1 5CF57583
 P 2050 4900
 F 0 "RV2" H 1980 4946 50  0000 R CNN
@@ -171,7 +171,7 @@ F 3 "~" H 2050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR011
+L breath-rescue:+12V-power #PWR011
 U 1 1 5CF57687
 P 3800 1350
 F 0 "#PWR011" H 3800 1200 50  0001 C CNN
@@ -182,7 +182,7 @@ F 3 "" H 3800 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R3
+L breath-rescue:R_Small-Device R3
 U 1 1 5CF57C8A
 P 2800 4650
 F 0 "R3" H 2859 4696 50  0000 L CNN
@@ -193,7 +193,7 @@ F 3 "~" H 2800 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R4
+L breath-rescue:R_Small-Device R4
 U 1 1 5CF57CE6
 P 3250 4350
 F 0 "R4" H 3309 4396 50  0000 L CNN
@@ -204,7 +204,7 @@ F 3 "~" H 3250 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R7
+L breath-rescue:R_Small-Device R7
 U 1 1 5CF57D4E
 P 5250 4350
 F 0 "R7" H 5309 4396 50  0000 L CNN
@@ -215,7 +215,7 @@ F 3 "~" H 5250 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R5
+L breath-rescue:R_Small-Device R5
 U 1 1 5CF57DC0
 P 3750 4600
 F 0 "R5" H 3809 4646 50  0000 L CNN
@@ -226,18 +226,18 @@ F 3 "~" H 3750 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R1
+L breath-rescue:R_Small-Device R1
 U 1 1 5CF57E12
 P 2350 4450
 F 0 "R1" H 2409 4496 50  0000 L CNN
-F 1 "33K" H 2409 4405 50  0000 L CNN
+F 1 "18K" H 2409 4405 50  0000 L CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 2350 4450 50  0001 C CNN
 F 3 "~" H 2350 4450 50  0001 C CNN
 	1    2350 4450
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR05
+L breath-rescue:GND-power #PWR05
 U 1 1 5CF57715
 P 2450 4250
 F 0 "#PWR05" H 2450 4000 50  0001 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 2450 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV1
+L breath-rescue:R_POT-Device RV1
 U 1 1 5CF584B4
 P 2050 4450
 F 0 "RV1" H 1980 4496 50  0000 R CNN
@@ -259,7 +259,7 @@ F 3 "~" H 2050 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L breath-rescue:GND-power #PWR02
 U 1 1 5CF58B43
 P 1950 4000
 F 0 "#PWR02" H 1950 3750 50  0001 C CNN
@@ -281,7 +281,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 4300 2050 4300
 $Comp
-L power:GND #PWR01
+L breath-rescue:GND-power #PWR01
 U 1 1 5CF58BEB
 P 1900 4600
 F 0 "#PWR01" H 1900 4350 50  0001 C CNN
@@ -314,7 +314,7 @@ Connection ~ 2500 4650
 Wire Wire Line
 	2200 4900 2250 4900
 $Comp
-L power:GND #PWR03
+L breath-rescue:GND-power #PWR03
 U 1 1 5CF58F86
 P 2050 5100
 F 0 "#PWR03" H 2050 4850 50  0001 C CNN
@@ -327,7 +327,7 @@ $EndComp
 Wire Wire Line
 	2050 5050 2050 5100
 $Comp
-L power:+12V #PWR04
+L breath-rescue:+12V-power #PWR04
 U 1 1 5CF590C6
 P 2150 4750
 F 0 "#PWR04" H 2150 4600 50  0001 C CNN
@@ -340,7 +340,7 @@ $EndComp
 Wire Wire Line
 	2050 4750 2150 4750
 $Comp
-L power:GND #PWR08
+L breath-rescue:GND-power #PWR08
 U 1 1 5CF59B9F
 P 3400 4150
 F 0 "#PWR08" H 3400 3900 50  0001 C CNN
@@ -371,7 +371,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 4600 4050 4250
 $Comp
-L Device:D D3
+L breath-rescue:D-Device D3
 U 1 1 5CF5A9B6
 P 4150 4400
 F 0 "D3" H 4150 4616 50  0000 C CNN
@@ -382,7 +382,7 @@ F 3 "~" H 4150 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR014
+L breath-rescue:GND-power #PWR014
 U 1 1 5CF5AB5A
 P 4150 4600
 F 0 "#PWR014" H 4150 4350 50  0001 C CNN
@@ -407,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4700 4950 4350
 $Comp
-L Device:R_Small R6
+L breath-rescue:R_Small-Device R6
 U 1 1 5CF5BC4D
 P 5250 4100
 F 0 "R6" H 5309 4146 50  0000 L CNN
@@ -428,7 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4100 5900 4100
 $Comp
-L power:GND #PWR017
+L breath-rescue:GND-power #PWR017
 U 1 1 5CF5CF3D
 P 5750 4850
 F 0 "#PWR017" H 5750 4600 50  0001 C CNN
@@ -439,7 +439,7 @@ F 3 "" H 5750 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L breath-rescue:GND-power #PWR018
 U 1 1 5CF5D001
 P 6200 4650
 F 0 "#PWR018" H 6200 4400 50  0001 C CNN
@@ -452,7 +452,7 @@ $EndComp
 Wire Wire Line
 	6200 4300 6200 4400
 $Comp
-L Device:R_Small R9
+L breath-rescue:R_Small-Device R9
 U 1 1 5CF5DA34
 P 6200 4500
 F 0 "R9" H 6259 4546 50  0000 L CNN
@@ -463,7 +463,7 @@ F 3 "~" H 6200 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R8
+L breath-rescue:R_Small-Device R8
 U 1 1 5CF5E22A
 P 5750 4700
 F 0 "R8" H 5809 4746 50  0000 L CNN
@@ -484,7 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3900 6200 3900
 $Comp
-L Connector:Barrel_Jack_Switch J4
+L breath-rescue:Barrel_Jack_Switch-Connector J4
 U 1 1 5CF61100
 P 6850 3550
 F 0 "J4" H 6621 3500 50  0000 R CNN
@@ -495,7 +495,7 @@ F 3 "~" H 6900 3510 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+15V #PWR019
+L breath-rescue:+15V-power #PWR019
 U 1 1 5CF613D1
 P 6300 3100
 F 0 "#PWR019" H 6300 2950 50  0001 C CNN
@@ -515,7 +515,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3450 6550 3450
 $Comp
-L power:+12V #PWR06
+L breath-rescue:+12V-power #PWR06
 U 1 1 5CF64A50
 P 2700 1600
 F 0 "#PWR06" H 2700 1450 50  0001 C CNN
@@ -526,7 +526,7 @@ F 3 "" H 2700 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR015
+L breath-rescue:+15V-power #PWR015
 U 1 1 5CF64AE7
 P 6305 2730
 F 0 "#PWR015" H 6305 2580 50  0001 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 6305 2730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Barrel_Jack_Switch J2
+L breath-rescue:Barrel_Jack_Switch-Connector J2
 U 1 1 5CF64BDA
 P 6705 2630
 F 0 "J2" H 6476 2580 50  0000 R CNN
@@ -548,7 +548,7 @@ F 3 "~" H 6755 2590 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR016
+L breath-rescue:GND-power #PWR016
 U 1 1 5CF66A29
 P 6235 2470
 F 0 "#PWR016" H 6235 2220 50  0001 C CNN
@@ -561,7 +561,7 @@ $EndComp
 Wire Wire Line
 	6305 2730 6405 2730
 $Comp
-L power:GND #PWR012
+L breath-rescue:GND-power #PWR012
 U 1 1 5CF673B0
 P 3800 1950
 F 0 "#PWR012" H 3800 1700 50  0001 C CNN
@@ -607,7 +607,7 @@ Connection ~ 3950 1950
 Wire Wire Line
 	3950 1950 3950 2000
 $Comp
-L Device:D D2
+L breath-rescue:D-Device D2
 U 1 1 5CF6F390
 P 3800 2450
 F 0 "D2" H 3800 2666 50  0000 C CNN
@@ -618,7 +618,7 @@ F 3 "~" H 3800 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:-12V #PWR013
+L breath-rescue:-12V-power #PWR013
 U 1 1 5CF6F3FE
 P 4000 2600
 F 0 "#PWR013" H 4000 2700 50  0001 C CNN
@@ -629,7 +629,7 @@ F 3 "" H 4000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR07
+L breath-rescue:-12V-power #PWR07
 U 1 1 5CF597C2
 P 2800 2250
 F 0 "#PWR07" H 2800 2350 50  0001 C CNN
@@ -650,7 +650,7 @@ Connection ~ 3950 1700
 Wire Wire Line
 	3800 1350 3800 1400
 $Comp
-L Device:CP_Small C2
+L breath-rescue:CP_Small-Device C2
 U 1 1 5CF768A0
 P 3450 1450
 F 0 "C2" H 3590 1505 50  0000 L CNN
@@ -661,7 +661,7 @@ F 3 "~" H 3450 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L breath-rescue:GND-power #PWR09
 U 1 1 5CF769D0
 P 3450 1600
 F 0 "#PWR09" H 3450 1350 50  0001 C CNN
@@ -672,7 +672,7 @@ F 3 "" H 3450 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L breath-rescue:GND-power #PWR010
 U 1 1 5CF76AD1
 P 3750 2850
 F 0 "#PWR010" H 3750 2600 50  0001 C CNN
@@ -697,7 +697,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1600 2700 1650
 $Comp
-L Device:C_Small C3
+L breath-rescue:C_Small-Device C3
 U 1 1 5CF5F838
 P 3600 2700
 F 0 "C3" H 3692 2746 50  0000 L CNN
@@ -722,7 +722,7 @@ Connection ~ 3750 2800
 Wire Wire Line
 	6200 3550 6550 3550
 $Comp
-L Device:D D4
+L breath-rescue:D-Device D4
 U 1 1 5CF6E1A9
 P 6400 3800
 F 0 "D4" H 6400 4016 50  0000 C CNN

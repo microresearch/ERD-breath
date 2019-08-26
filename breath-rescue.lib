@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# breath-rescue_+12V-power
+# +12V-power
 #
-DEF breath-rescue_+12V-power #PWR 0 0 Y Y 1 F P
+DEF +12V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "breath-rescue_+12V-power" 0 140 50 H V C CNN
+F1 "+12V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_+15V-power
+# +15V-power
 #
-DEF breath-rescue_+15V-power #PWR 0 0 Y Y 1 F P
+DEF +15V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "breath-rescue_+15V-power" 0 140 50 H V C CNN
+F1 "+15V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +15V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_-12V-power
+# -12V-power
 #
-DEF breath-rescue_-12V-power #PWR 0 0 Y Y 1 F P
+DEF -12V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "breath-rescue_-12V-power" 0 150 50 H V C CNN
+F1 "-12V-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -44,11 +44,11 @@ X -12V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_AUDIO-JACKERTHENVAR-erthenvar
+# AUDIO-JACKERTHENVAR-erthenvar
 #
-DEF ~breath-rescue_AUDIO-JACKERTHENVAR-erthenvar M 0 40 Y Y 1 L N
+DEF ~AUDIO-JACKERTHENVAR-erthenvar M 0 40 Y Y 1 L N
 F0 "M" -295 175 45 H V L BNN
-F1 "breath-rescue_AUDIO-JACKERTHENVAR-erthenvar" 0 0 45 H I L BNN
+F1 "AUDIO-JACKERTHENVAR-erthenvar" 0 0 45 H I L BNN
 F2 "erthenvar_ERTHENVAR-JACK" 30 150 20 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -73,11 +73,11 @@ X TIP 3 300 -200 200 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_Barrel_Jack_Switch-Connector
+# Barrel_Jack_Switch-Connector
 #
-DEF breath-rescue_Barrel_Jack_Switch-Connector J 0 20 Y N 1 F N
+DEF Barrel_Jack_Switch-Connector J 0 20 Y N 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "breath-rescue_Barrel_Jack_Switch-Connector" 0 -200 50 H V C CNN
+F1 "Barrel_Jack_Switch-Connector" 0 -200 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 $FPLIST
@@ -98,11 +98,11 @@ X ~ 3 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_CP_Small-Device
+# CP_Small-Device
 #
-DEF breath-rescue_CP_Small-Device C 0 10 N N 1 F N
+DEF CP_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "breath-rescue_CP_Small-Device" 10 -80 50 H V L CNN
+F1 "CP_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -118,11 +118,11 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF breath-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "breath-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -136,11 +136,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_Conn_01x02_Male-Connector
+# Conn_01x02_Male-Connector
 #
-DEF breath-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x02_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "breath-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -156,11 +156,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_Conn_02x05_Odd_Even-Connector_Generic
+# Conn_02x05_Odd_Even-Connector_Generic
 #
-DEF breath-rescue_Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "breath-rescue_Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -191,11 +191,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_D-Device
+# D-Device
 #
-DEF breath-rescue_D-Device D 0 40 N N 1 F N
+DEF D-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "breath-rescue_D-Device" 0 -100 50 H V C CNN
+F1 "D-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -213,11 +213,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_GND-power
+# GND-power
 #
-DEF breath-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "breath-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -226,11 +226,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_R_POT-Device
+# R_POT-Device
 #
-DEF breath-rescue_R_POT-Device RV 0 40 Y N 1 F N
+DEF R_POT-Device RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "breath-rescue_R_POT-Device" -100 0 50 V V C CNN
+F1 "R_POT-Device" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -246,11 +246,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_R_Small-Device
+# R_Small-Device
 #
-DEF breath-rescue_R_Small-Device R 0 10 N N 1 F N
+DEF R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "breath-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F1 "R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -263,11 +263,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_TIP3055-Transistor_BJT
+# TIP3055-Transistor_BJT
 #
-DEF breath-rescue_TIP3055-Transistor_BJT Q 0 0 Y N 1 F N
+DEF TIP3055-Transistor_BJT Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "breath-rescue_TIP3055-Transistor_BJT" 200 0 50 H V L CNN
+F1 "TIP3055-Transistor_BJT" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-218-3_Vertical" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -285,11 +285,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# breath-rescue_TL084-Amplifier_Operational
+# TL084-Amplifier_Operational
 #
-DEF breath-rescue_TL084-Amplifier_Operational U 0 5 Y Y 5 L N
+DEF TL084-Amplifier_Operational U 0 5 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "breath-rescue_TL084-Amplifier_Operational" 0 -200 50 H V L CNN
+F1 "TL084-Amplifier_Operational" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 $FPLIST
