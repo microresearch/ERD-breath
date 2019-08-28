@@ -385,9 +385,10 @@ total costs: 60 each - so say 195 each
 
 ** light module to accompany
 
-- cross slit at front with BPW34 beneath - width of slit?
+- cross slit at front with BPW34 beneath - width of slit? say 0.8mm
 - 10pf in feedback for HF first stage
 - 2 stages - see also https://github.com/TomWhitwell/Magnetophon/blob/master/Magnetophon_Schematic.pdf - too much gain maybe...
 - first stage with 10k as in http://www.1010.co.uk/org/notes.html 2nd stage with 100K and 5k 
 - same front as breath panel but all in gold ouroboros
-- one volume control
+- one volume control pot 50K - check footprint
+- signal out, gate out

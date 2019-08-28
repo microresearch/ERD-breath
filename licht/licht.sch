@@ -15,527 +15,432 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L licht-rescue:TL084-Amplifier_Operational-licht-rescue U1
-U 5 1 5CF56F40
-P 2800 1950
-F 0 "U1" H 2758 1996 50  0000 L CNN
-F 1 "TL084" H 2758 1905 50  0000 L CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2750 2050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2850 2150 50  0001 C CNN
-	5    2800 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:CP_Small-Device-licht-rescue C4
+L licht-rescue:CP_Small-Device-licht-rescue C8
 U 1 1 5CF57303
-P 3750 2700
-F 0 "C4" H 3890 2755 50  0000 L CNN
-F 1 "10UF" H 3838 2655 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm" H 3750 2700 50  0001 C CNN
-F 3 "~" H 3750 2700 50  0001 C CNN
-	1    3750 2700
+P 2695 2700
+F 0 "C8" H 2835 2755 50  0000 L CNN
+F 1 "10UF" H 2783 2655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Hand" H 2695 2700 50  0001 C CNN
+F 3 "~" H 2695 2700 50  0001 C CNN
+	1    2695 2700
 	-1   0    0    1   
 $EndComp
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C1
+L licht-rescue:C_Small-Device-licht-rescue C5
 U 1 1 5CF573BB
-P 3250 1450
-F 0 "C1" H 3342 1496 50  0000 L CNN
-F 1 "100N" H 2950 1400 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3250 1450 50  0001 C CNN
-F 3 "~" H 3250 1450 50  0001 C CNN
-	1    3250 1450
+P 2195 1450
+F 0 "C5" H 2287 1496 50  0000 L CNN
+F 1 "100N" H 1895 1400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2195 1450 50  0001 C CNN
+F 3 "~" H 2195 1450 50  0001 C CNN
+	1    2195 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L licht-rescue:Conn_02x05_Odd_Even-Connector_Generic-licht-rescue J1
 U 1 1 5CF5749D
-P 4150 2000
-F 0 "J1" H 4200 2417 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 4200 2326 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05_Pitch2.54mm" H 4150 2000 50  0001 C CNN
-F 3 "~" H 4150 2000 50  0001 C CNN
-	1    4150 2000
+P 3095 2000
+F 0 "J1" H 3145 2417 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 3145 2326 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 3095 2000 50  0001 C CNN
+F 3 "~" H 3095 2000 50  0001 C CNN
+	1    3095 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L licht-rescue:D-Device-licht-rescue D1
 U 1 1 5CF57595
-P 3800 1550
-F 0 "D1" H 3800 1766 50  0000 C CNN
-F 1 "BAT" H 3800 1675 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-15_P10.16mm_Horizontal" H 3800 1550 50  0001 C CNN
-F 3 "~" H 3800 1550 50  0001 C CNN
-	1    3800 1550
+P 2745 1550
+F 0 "D1" H 2745 1766 50  0000 C CNN
+F 1 "BAT" H 2745 1675 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 2745 1550 50  0001 C CNN
+F 3 "~" H 2745 1550 50  0001 C CNN
+	1    2745 1550
 	0    1    1    0   
 $EndComp
 $Comp
-L licht-rescue:+12V-power-licht-rescue #PWR011
+L licht-rescue:+12V-power-licht-rescue #PWR013
 U 1 1 5CF57687
-P 3800 1350
-F 0 "#PWR011" H 3800 1200 50  0001 C CNN
-F 1 "+12V" H 3815 1523 50  0000 C CNN
-F 2 "" H 3800 1350 50  0001 C CNN
-F 3 "" H 3800 1350 50  0001 C CNN
-	1    3800 1350
+P 2745 1350
+F 0 "#PWR013" H 2745 1200 50  0001 C CNN
+F 1 "+12V" H 2760 1523 50  0000 C CNN
+F 2 "" H 2745 1350 50  0001 C CNN
+F 3 "" H 2745 1350 50  0001 C CNN
+	1    2745 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:+12V-power-licht-rescue #PWR06
+L licht-rescue:+12V-power-licht-rescue #PWR09
 U 1 1 5CF64A50
-P 2700 1600
-F 0 "#PWR06" H 2700 1450 50  0001 C CNN
-F 1 "+12V" H 2715 1773 50  0000 C CNN
-F 2 "" H 2700 1600 50  0001 C CNN
-F 3 "" H 2700 1600 50  0001 C CNN
-	1    2700 1600
+P 1645 1600
+F 0 "#PWR09" H 1645 1450 50  0001 C CNN
+F 1 "+12V" H 1660 1773 50  0000 C CNN
+F 2 "" H 1645 1600 50  0001 C CNN
+F 3 "" H 1645 1600 50  0001 C CNN
+	1    1645 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L licht-rescue:GND-power-licht-rescue #PWR014
+U 1 1 5CF673B0
+P 2745 1950
+F 0 "#PWR014" H 2745 1700 50  0001 C CNN
+F 1 "GND" H 2745 2065 50  0000 C CNN
+F 2 "" H 2745 1950 50  0001 C CNN
+F 3 "" H 2745 1950 50  0001 C CNN
+	1    2745 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2895 1900 2895 1950
+Wire Wire Line
+	2895 2000 2895 2100
+Connection ~ 2895 2000
+Wire Wire Line
+	3395 1900 3395 2000
+Wire Wire Line
+	3395 2000 3395 2100
+Connection ~ 3395 2000
+Wire Wire Line
+	3395 1850 2895 1850
+Wire Wire Line
+	2895 1850 2895 1900
+Connection ~ 3395 1900
+Wire Wire Line
+	3395 1900 3395 1850
+Connection ~ 2895 1900
+Wire Wire Line
+	2895 2200 2895 2300
+Wire Wire Line
+	2895 2300 3395 2300
+Wire Wire Line
+	3395 2300 3395 2200
+Wire Wire Line
+	3395 1800 3395 1700
+Wire Wire Line
+	3395 1700 2895 1700
+Wire Wire Line
+	2895 1700 2895 1800
+Wire Wire Line
+	2745 1950 2895 1950
+Connection ~ 2895 1950
+Wire Wire Line
+	2895 1950 2895 2000
+$Comp
+L licht-rescue:D-Device-licht-rescue D2
+U 1 1 5CF6F390
+P 2745 2450
+F 0 "D2" H 2745 2666 50  0000 C CNN
+F 1 "BAT" H 2745 2575 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 2745 2450 50  0001 C CNN
+F 3 "~" H 2745 2450 50  0001 C CNN
+	1    2745 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L licht-rescue:-12V-power-licht-rescue #PWR015
+U 1 1 5CF6F3FE
+P 2945 2600
+F 0 "#PWR015" H 2945 2700 50  0001 C CNN
+F 1 "-12V" H 2960 2773 50  0000 C CNN
+F 2 "" H 2945 2600 50  0001 C CNN
+F 3 "" H 2945 2600 50  0001 C CNN
+	1    2945 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L licht-rescue:-12V-power-licht-rescue #PWR010
+U 1 1 5CF597C2
+P 1745 2250
+F 0 "#PWR010" H 1745 2350 50  0001 C CNN
+F 1 "-12V" H 1760 2423 50  0000 C CNN
+F 2 "" H 1745 2250 50  0001 C CNN
+F 3 "" H 1745 2250 50  0001 C CNN
+	1    1745 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2745 2600 2945 2600
+Wire Wire Line
+	2745 2300 2895 2300
+Connection ~ 2895 2300
+Wire Wire Line
+	2745 1700 2895 1700
+Connection ~ 2895 1700
+Wire Wire Line
+	2745 1350 2745 1400
+$Comp
+L licht-rescue:CP_Small-Device-licht-rescue C6
+U 1 1 5CF768A0
+P 2395 1450
+F 0 "C6" H 2535 1505 50  0000 L CNN
+F 1 "10UF" H 2483 1405 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Hand" H 2395 1450 50  0001 C CNN
+F 3 "~" H 2395 1450 50  0001 C CNN
+	1    2395 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L licht-rescue:GND-power-licht-rescue #PWR011
+U 1 1 5CF769D0
+P 2395 1600
+F 0 "#PWR011" H 2395 1350 50  0001 C CNN
+F 1 "GND" H 2395 1715 50  0000 C CNN
+F 2 "" H 2395 1600 50  0001 C CNN
+F 3 "" H 2395 1600 50  0001 C CNN
+	1    2395 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L licht-rescue:GND-power-licht-rescue #PWR012
-U 1 1 5CF673B0
-P 3800 1950
-F 0 "#PWR012" H 3800 1700 50  0001 C CNN
-F 1 "GND" H 3800 2065 50  0000 C CNN
-F 2 "" H 3800 1950 50  0001 C CNN
-F 3 "" H 3800 1950 50  0001 C CNN
-	1    3800 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 1900 3950 1950
-Wire Wire Line
-	3950 2000 3950 2100
-Connection ~ 3950 2000
-Wire Wire Line
-	4450 1900 4450 2000
-Wire Wire Line
-	4450 2000 4450 2100
-Connection ~ 4450 2000
-Wire Wire Line
-	4450 1850 3950 1850
-Wire Wire Line
-	3950 1850 3950 1900
-Connection ~ 4450 1900
-Wire Wire Line
-	4450 1900 4450 1850
-Connection ~ 3950 1900
-Wire Wire Line
-	3950 2200 3950 2300
-Wire Wire Line
-	3950 2300 4450 2300
-Wire Wire Line
-	4450 2300 4450 2200
-Wire Wire Line
-	4450 1800 4450 1700
-Wire Wire Line
-	4450 1700 3950 1700
-Wire Wire Line
-	3950 1700 3950 1800
-Wire Wire Line
-	3800 1950 3950 1950
-Connection ~ 3950 1950
-Wire Wire Line
-	3950 1950 3950 2000
-$Comp
-L licht-rescue:D-Device-licht-rescue D2
-U 1 1 5CF6F390
-P 3800 2450
-F 0 "D2" H 3800 2666 50  0000 C CNN
-F 1 "BAT" H 3800 2575 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-15_P10.16mm_Horizontal" H 3800 2450 50  0001 C CNN
-F 3 "~" H 3800 2450 50  0001 C CNN
-	1    3800 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L licht-rescue:-12V-power-licht-rescue #PWR013
-U 1 1 5CF6F3FE
-P 4000 2600
-F 0 "#PWR013" H 4000 2700 50  0001 C CNN
-F 1 "-12V" H 4015 2773 50  0000 C CNN
-F 2 "" H 4000 2600 50  0001 C CNN
-F 3 "" H 4000 2600 50  0001 C CNN
-	1    4000 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:-12V-power-licht-rescue #PWR07
-U 1 1 5CF597C2
-P 2800 2250
-F 0 "#PWR07" H 2800 2350 50  0001 C CNN
-F 1 "-12V" H 2815 2423 50  0000 C CNN
-F 2 "" H 2800 2250 50  0001 C CNN
-F 3 "" H 2800 2250 50  0001 C CNN
-	1    2800 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 2600 4000 2600
-Wire Wire Line
-	3800 2300 3950 2300
-Connection ~ 3950 2300
-Wire Wire Line
-	3800 1700 3950 1700
-Connection ~ 3950 1700
-Wire Wire Line
-	3800 1350 3800 1400
-$Comp
-L licht-rescue:CP_Small-Device-licht-rescue C2
-U 1 1 5CF768A0
-P 3450 1450
-F 0 "C2" H 3590 1505 50  0000 L CNN
-F 1 "10UF" H 3538 1405 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm" H 3450 1450 50  0001 C CNN
-F 3 "~" H 3450 1450 50  0001 C CNN
-	1    3450 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:GND-power-licht-rescue #PWR09
-U 1 1 5CF769D0
-P 3450 1600
-F 0 "#PWR09" H 3450 1350 50  0001 C CNN
-F 1 "GND" H 3450 1715 50  0000 C CNN
-F 2 "" H 3450 1600 50  0001 C CNN
-F 3 "" H 3450 1600 50  0001 C CNN
-	1    3450 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:GND-power-licht-rescue #PWR010
 U 1 1 5CF76AD1
-P 3750 2850
-F 0 "#PWR010" H 3750 2600 50  0001 C CNN
-F 1 "GND" V 3750 2965 50  0000 C CNN
-F 2 "" H 3750 2850 50  0001 C CNN
-F 3 "" H 3750 2850 50  0001 C CNN
-	1    3750 2850
+P 2695 2850
+F 0 "#PWR012" H 2695 2600 50  0001 C CNN
+F 1 "GND" V 2695 2965 50  0000 C CNN
+F 2 "" H 2695 2850 50  0001 C CNN
+F 3 "" H 2695 2850 50  0001 C CNN
+	1    2695 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 1550 3450 1600
+	2395 1550 2395 1600
 Wire Wire Line
-	3750 2800 3750 2850
+	2695 2800 2695 2850
 Wire Wire Line
-	3450 1350 3800 1350
-Connection ~ 3800 1350
+	2395 1350 2745 1350
+Connection ~ 2745 1350
 Wire Wire Line
-	3750 2600 3800 2600
-Connection ~ 3800 2600
+	2695 2600 2745 2600
+Connection ~ 2745 2600
 Wire Wire Line
-	2700 2250 2800 2250
+	1645 2250 1745 2250
 Wire Wire Line
-	2700 1600 2700 1650
+	1645 1600 1645 1650
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C3
+L licht-rescue:C_Small-Device-licht-rescue C7
 U 1 1 5CF5F838
-P 3600 2700
-F 0 "C3" H 3692 2746 50  0000 L CNN
-F 1 "100N" H 3515 2540 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3600 2700 50  0001 C CNN
-F 3 "~" H 3600 2700 50  0001 C CNN
-	1    3600 2700
+P 2545 2700
+F 0 "C7" H 2637 2746 50  0000 L CNN
+F 1 "100N" H 2460 2540 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2545 2700 50  0001 C CNN
+F 3 "~" H 2545 2700 50  0001 C CNN
+	1    2545 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 1350 3450 1350
-Connection ~ 3450 1350
+	2195 1350 2395 1350
+Connection ~ 2395 1350
 Wire Wire Line
-	3250 1550 3450 1550
-Connection ~ 3450 1550
+	2195 1550 2395 1550
+Connection ~ 2395 1550
 Wire Wire Line
-	3600 2600 3750 2600
-Connection ~ 3750 2600
+	2545 2600 2695 2600
+Connection ~ 2695 2600
 Wire Wire Line
-	3600 2800 3750 2800
-Connection ~ 3750 2800
+	2545 2800 2695 2800
+Connection ~ 2695 2800
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R6
 U 1 1 5CF5BC4D
-P 7220 2560
-F 0 "R6" H 7279 2606 50  0000 L CNN
-F 1 "1K" H 7279 2515 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7220 2560 50  0001 C CNN
-F 3 "~" H 7220 2560 50  0001 C CNN
-	1    7220 2560
+P 6355 1790
+F 0 "R6" H 6414 1836 50  0000 L CNN
+F 1 "1K" H 6414 1745 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6355 1790 50  0001 C CNN
+F 3 "~" H 6355 1790 50  0001 C CNN
+	1    6355 1790
 	-1   0    0    1   
-$EndComp
-$Comp
-L licht-rescue:TL084-Amplifier_Operational-licht-rescue U1
-U 1 1 5CF57011
-P 6605 2200
-F 0 "U1" H 6605 2567 50  0000 C CNN
-F 1 "TL084" H 6605 2476 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6555 2300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6655 2400 50  0001 C CNN
-	1    6605 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:TL084-Amplifier_Operational-licht-rescue U2
-U 2 1 5D64D502
-P 7520 2300
-F 0 "U2" H 7520 2667 50  0000 C CNN
-F 1 "TL084" H 7520 2576 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7470 2400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7570 2500 50  0001 C CNN
-	2    7520 2300
-	1    0    0    -1  
 $EndComp
 $Comp
 L licht-rescue:CP_Small-Device-licht-rescue C9
 U 1 1 5D64DE52
-P 6565 2745
-F 0 "C9" V 6495 2570 50  0000 L CNN
-F 1 "10PF" V 6450 2670 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm" H 6565 2745 50  0001 C CNN
-F 3 "~" H 6565 2745 50  0001 C CNN
-	1    6565 2745
+P 5700 1975
+F 0 "C9" V 5630 1800 50  0000 L CNN
+F 1 "10PF" V 5585 1900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5700 1975 50  0001 C CNN
+F 3 "~" H 5700 1975 50  0001 C CNN
+	1    5700 1975
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D3
 U 1 1 5D64E221
-P 6175 2200
-F 0 "D3" V 6171 2122 50  0000 R CNN
-F 1 "D_Photo" V 6100 2645 50  0000 R CNN
-F 2 "" H 6125 2200 50  0001 C CNN
-F 3 "~" H 6125 2200 50  0001 C CNN
-	1    6175 2200
+P 5310 1430
+F 0 "D3" V 5306 1352 50  0000 R CNN
+F 1 "D_Photo" V 5235 1875 50  0000 R CNN
+F 2 "Opto-Devices:PhotoDiode_BPW82" H 5260 1430 50  0001 C CNN
+F 3 "~" H 5260 1430 50  0001 C CNN
+	1    5310 1430
 	0    -1   -1   0   
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR020
+L licht-rescue:GND-power-licht-rescue #PWR018
 U 1 1 5D64E41B
-P 6000 2100
-F 0 "#PWR020" H 6000 1850 50  0001 C CNN
-F 1 "GND" H 6000 2215 50  0000 C CNN
-F 2 "" H 6000 2100 50  0001 C CNN
-F 3 "" H 6000 2100 50  0001 C CNN
-	1    6000 2100
+P 5135 1330
+F 0 "#PWR018" H 5135 1080 50  0001 C CNN
+F 1 "GND" H 5135 1445 50  0000 C CNN
+F 2 "" H 5135 1330 50  0001 C CNN
+F 3 "" H 5135 1330 50  0001 C CNN
+	1    5135 1330
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 2100 6175 2100
+	5135 1330 5310 1330
 Wire Wire Line
-	6175 2100 6305 2100
-Connection ~ 6175 2100
+	5310 1330 5440 1330
+Connection ~ 5310 1330
 Wire Wire Line
-	6175 2400 6300 2400
+	5310 1630 5435 1630
 Wire Wire Line
-	6305 2400 6305 2300
+	5440 1630 5440 1530
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R5
 U 1 1 5D64F33C
-P 6565 2475
-F 0 "R5" V 6665 2535 50  0000 L CNN
-F 1 "10K" V 6680 2325 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6565 2475 50  0001 C CNN
-F 3 "~" H 6565 2475 50  0001 C CNN
-	1    6565 2475
+P 5700 1705
+F 0 "R5" V 5800 1765 50  0000 L CNN
+F 1 "10K" V 5815 1555 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5700 1705 50  0001 C CNN
+F 3 "~" H 5700 1705 50  0001 C CNN
+	1    5700 1705
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6300 2400 6300 2475
+	5435 1630 5435 1705
 Wire Wire Line
-	6300 2475 6365 2475
-Connection ~ 6300 2400
+	5435 1705 5500 1705
+Connection ~ 5435 1630
 Wire Wire Line
-	6300 2400 6305 2400
+	5435 1630 5440 1630
 Wire Wire Line
-	6665 2475 6905 2475
+	5800 1705 6040 1705
 Wire Wire Line
-	6905 2475 6905 2200
+	6040 1705 6040 1430
 Wire Wire Line
-	6365 2475 6365 2745
+	5500 1705 5500 1975
 Wire Wire Line
-	6365 2745 6465 2745
-Connection ~ 6365 2475
+	5500 1975 5600 1975
+Connection ~ 5500 1705
 Wire Wire Line
-	6365 2475 6465 2475
+	5500 1705 5600 1705
 Wire Wire Line
-	6665 2745 6905 2745
+	5800 1975 6040 1975
 Wire Wire Line
-	6905 2745 6905 2475
-Connection ~ 6905 2475
+	6040 1975 6040 1705
+Connection ~ 6040 1705
 $Comp
 L licht-rescue:CP_Small-Device-licht-rescue C10
 U 1 1 5D65118B
-P 7050 2200
-F 0 "C10" V 6980 2025 50  0000 L CNN
-F 1 "100N" V 6935 2125 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm" H 7050 2200 50  0001 C CNN
-F 3 "~" H 7050 2200 50  0001 C CNN
-	1    7050 2200
+P 6185 1430
+F 0 "C10" V 6115 1255 50  0000 L CNN
+F 1 "100N" V 6070 1355 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6185 1430 50  0001 C CNN
+F 3 "~" H 6185 1430 50  0001 C CNN
+	1    6185 1430
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6905 2200 6950 2200
-Connection ~ 6905 2200
+	6040 1430 6085 1430
 Wire Wire Line
-	7150 2200 7220 2200
+	6285 1430 6355 1430
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR021
+L licht-rescue:GND-power-licht-rescue #PWR019
 U 1 1 5D652C4F
-P 7220 2705
-F 0 "#PWR021" H 7220 2455 50  0001 C CNN
-F 1 "GND" H 7375 2625 50  0000 C CNN
-F 2 "" H 7220 2705 50  0001 C CNN
-F 3 "" H 7220 2705 50  0001 C CNN
-	1    7220 2705
+P 6355 1935
+F 0 "#PWR019" H 6355 1685 50  0001 C CNN
+F 1 "GND" H 6510 1855 50  0000 C CNN
+F 2 "" H 6355 1935 50  0001 C CNN
+F 3 "" H 6355 1935 50  0001 C CNN
+	1    6355 1935
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7220 2400 7220 2430
+	6355 1630 6355 1660
 Wire Wire Line
-	7220 2660 7220 2705
+	6355 1890 6355 1935
 $Comp
 L Device:R_POT RV1
 U 1 1 5D653E9E
-P 7800 2650
-F 0 "RV1" V 7593 2650 50  0000 C CNN
-F 1 "50K" V 7684 2650 50  0000 C CNN
-F 2 "" H 7800 2650 50  0001 C CNN
-F 3 "~" H 7800 2650 50  0001 C CNN
-	1    7800 2650
+P 6935 1880
+F 0 "RV1" V 6728 1880 50  0000 C CNN
+F 1 "100K" V 6819 1880 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09K_Vertical" H 6935 1880 50  0001 C CNN
+F 3 "~" H 6935 1880 50  0001 C CNN
+	1    6935 1880
 	0    1    1    0   
 $EndComp
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R9
 U 1 1 5D65404F
-P 7490 2650
-F 0 "R9" H 7549 2696 50  0000 L CNN
-F 1 "4.7K" H 7549 2605 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7490 2650 50  0001 C CNN
-F 3 "~" H 7490 2650 50  0001 C CNN
-	1    7490 2650
+P 6625 1880
+F 0 "R9" H 6684 1926 50  0000 L CNN
+F 1 "4.7K" H 6684 1835 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6625 1880 50  0001 C CNN
+F 3 "~" H 6625 1880 50  0001 C CNN
+	1    6625 1880
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7820 2300 7950 2300
+	6955 1530 7085 1530
 Wire Wire Line
-	7950 2300 7950 2650
+	7085 1530 7085 1880
 Wire Wire Line
-	7800 2800 7945 2800
+	7085 2030 7085 1880
+Connection ~ 7085 1880
 Wire Wire Line
-	7950 2800 7950 2650
-Connection ~ 7950 2650
+	6725 1880 6785 1880
 Wire Wire Line
-	7590 2650 7650 2650
+	6525 1880 6415 1880
 Wire Wire Line
-	7390 2650 7280 2650
+	6415 1880 6415 1660
 Wire Wire Line
-	7280 2650 7280 2430
+	6415 1660 6355 1660
+Connection ~ 6355 1660
 Wire Wire Line
-	7280 2430 7220 2430
-Connection ~ 7220 2430
-Wire Wire Line
-	7220 2430 7220 2460
+	6355 1660 6355 1690
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R11
 U 1 1 5D6568BF
-P 8080 2300
-F 0 "R11" H 8139 2346 50  0000 L CNN
-F 1 "1K" H 8139 2255 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8080 2300 50  0001 C CNN
-F 3 "~" H 8080 2300 50  0001 C CNN
-	1    8080 2300
+P 7215 1530
+F 0 "R11" H 7274 1576 50  0000 L CNN
+F 1 "1K" H 7274 1485 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7215 1530 50  0001 C CNN
+F 3 "~" H 7215 1530 50  0001 C CNN
+	1    7215 1530
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7950 2300 7980 2300
-Connection ~ 7950 2300
+	7085 1530 7115 1530
+Connection ~ 7085 1530
 $Comp
 L erthenvar:AUDIO-JACKERTHENVAR M1
 U 1 1 5D657737
-P 8515 2500
-F 0 "M1" H 8188 2462 45  0000 R CNN
-F 1 "AUDIO-JACKERTHENVAR" H 8515 2500 45  0001 L BNN
-F 2 "erthenvar_ERTHENVAR-JACK" H 8545 2650 20  0001 C CNN
-F 3 "" H 8515 2500 50  0001 C CNN
-	1    8515 2500
+P 7650 1730
+F 0 "M1" H 7323 1692 45  0000 R CNN
+F 1 "AUDIO-JACKERTHENVAR" H 7650 1730 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 7680 1880 20  0001 C CNN
+F 3 "" H 7650 1730 50  0001 C CNN
+	1    7650 1730
 	-1   0    0    1   
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR026
+L licht-rescue:GND-power-licht-rescue #PWR024
 U 1 1 5D65796A
-P 8170 2600
-F 0 "#PWR026" H 8170 2350 50  0001 C CNN
-F 1 "GND" H 8170 2715 50  0000 C CNN
-F 2 "" H 8170 2600 50  0001 C CNN
-F 3 "" H 8170 2600 50  0001 C CNN
-	1    8170 2600
+P 7305 1830
+F 0 "#PWR024" H 7305 1580 50  0001 C CNN
+F 1 "GND" H 7305 1945 50  0000 C CNN
+F 2 "" H 7305 1830 50  0001 C CNN
+F 3 "" H 7305 1830 50  0001 C CNN
+	1    7305 1830
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8170 2600 8215 2600
+	7305 1830 7350 1830
 Wire Wire Line
-	8180 2300 8215 2300
+	7315 1530 7350 1530
 $Comp
-L licht-rescue:TL084-Amplifier_Operational-licht-rescue U2
-U 1 1 5D65989B
-P 6625 3665
-F 0 "U2" H 6625 4032 50  0000 C CNN
-F 1 "TL084" H 6625 3941 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6575 3765 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6675 3865 50  0001 C CNN
-	1    6625 3665
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:TL084-Amplifier_Operational-licht-rescue U1
-U 2 1 5D6598FF
-P 7845 3565
-F 0 "U1" H 7845 3932 50  0000 C CNN
-F 1 "TL084" H 7845 3841 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7795 3665 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7895 3765 50  0001 C CNN
-	2    7845 3565
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:TL084-Amplifier_Operational-licht-rescue U2
-U 5 1 5D659C4C
-P 1970 1970
-F 0 "U2" H 1928 2016 50  0000 L CNN
-F 1 "TL084" H 1928 1925 50  0000 L CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1920 2070 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2020 2170 50  0001 C CNN
-	5    1970 1970
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:+12V-power-licht-rescue #PWR016
-U 1 1 5D659C53
-P 1870 1620
-F 0 "#PWR016" H 1870 1470 50  0001 C CNN
-F 1 "+12V" H 1885 1793 50  0000 C CNN
-F 2 "" H 1870 1620 50  0001 C CNN
-F 3 "" H 1870 1620 50  0001 C CNN
-	1    1870 1620
-	1    0    0    -1  
-$EndComp
-$Comp
-L licht-rescue:-12V-power-licht-rescue #PWR017
-U 1 1 5D659C59
-P 1970 2270
-F 0 "#PWR017" H 1970 2370 50  0001 C CNN
-F 1 "-12V" H 1985 2443 50  0000 C CNN
-F 2 "" H 1970 2270 50  0001 C CNN
-F 3 "" H 1970 2270 50  0001 C CNN
-	1    1970 2270
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1870 2270 1970 2270
-Wire Wire Line
-	1870 1620 1870 1670
-$Comp
-L licht-rescue:+12V-power-licht-rescue #PWR014
+L licht-rescue:+12V-power-licht-rescue #PWR07
 U 1 1 5D65A9B5
 P 1170 1550
-F 0 "#PWR014" H 1170 1400 50  0001 C CNN
+F 0 "#PWR07" H 1170 1400 50  0001 C CNN
 F 1 "+12V" H 1185 1723 50  0000 C CNN
 F 2 "" H 1170 1550 50  0001 C CNN
 F 3 "" H 1170 1550 50  0001 C CNN
@@ -543,12 +448,12 @@ F 3 "" H 1170 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C8
+L licht-rescue:C_Small-Device-licht-rescue C4
 U 1 1 5D65A9EC
 P 1170 1695
-F 0 "C8" H 1262 1741 50  0000 L CNN
+F 0 "C4" H 1262 1741 50  0000 L CNN
 F 1 "100N" H 870 1645 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1170 1695 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1170 1695 50  0001 C CNN
 F 3 "~" H 1170 1695 50  0001 C CNN
 	1    1170 1695
 	1    0    0    -1  
@@ -565,10 +470,10 @@ F 3 "" H 905 1565 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR015
+L licht-rescue:GND-power-licht-rescue #PWR08
 U 1 1 5D65AB3A
 P 1170 1850
-F 0 "#PWR015" H 1170 1600 50  0001 C CNN
+F 0 "#PWR08" H 1170 1600 50  0001 C CNN
 F 1 "GND" V 1170 1965 50  0000 C CNN
 F 2 "" H 1170 1850 50  0001 C CNN
 F 3 "" H 1170 1850 50  0001 C CNN
@@ -587,12 +492,12 @@ F 3 "" H 905 1830 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C6
+L licht-rescue:C_Small-Device-licht-rescue C2
 U 1 1 5D65ABAC
 P 905 1695
-F 0 "C6" H 997 1741 50  0000 L CNN
+F 0 "C2" H 997 1741 50  0000 L CNN
 F 1 "100N" H 605 1645 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 905 1695 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 905 1695 50  0001 C CNN
 F 3 "~" H 905 1695 50  0001 C CNN
 	1    905  1695
 	1    0    0    -1  
@@ -617,12 +522,12 @@ F 3 "" H 1165 2125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C7
+L licht-rescue:C_Small-Device-licht-rescue C3
 U 1 1 5D660C3F
 P 1165 2270
-F 0 "C7" H 1257 2316 50  0000 L CNN
+F 0 "C3" H 1257 2316 50  0000 L CNN
 F 1 "100N" H 865 2220 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1165 2270 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1165 2270 50  0001 C CNN
 F 3 "~" H 1165 2270 50  0001 C CNN
 	1    1165 2270
 	1    0    0    -1  
@@ -639,10 +544,10 @@ F 3 "" H 900 2140 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR08
+L licht-rescue:GND-power-licht-rescue #PWR06
 U 1 1 5D660C4C
 P 1165 2425
-F 0 "#PWR08" H 1165 2175 50  0001 C CNN
+F 0 "#PWR06" H 1165 2175 50  0001 C CNN
 F 1 "GND" V 1165 2540 50  0000 C CNN
 F 2 "" H 1165 2425 50  0001 C CNN
 F 3 "" H 1165 2425 50  0001 C CNN
@@ -661,12 +566,12 @@ F 3 "" H 900 2405 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C5
+L licht-rescue:C_Small-Device-licht-rescue C1
 U 1 1 5D660C58
 P 900 2270
-F 0 "C5" H 992 2316 50  0000 L CNN
+F 0 "C1" H 992 2316 50  0000 L CNN
 F 1 "100N" H 600 2220 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 900 2270 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 900 2270 50  0001 C CNN
 F 3 "~" H 900 2270 50  0001 C CNN
 	1    900  2270
 	1    0    0    -1  
@@ -682,304 +587,364 @@ Wire Wire Line
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R3
 U 1 1 5D66232D
-P 6175 3565
-F 0 "R3" V 6275 3625 50  0000 L CNN
-F 1 "10K" V 6290 3415 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6175 3565 50  0001 C CNN
-F 3 "~" H 6175 3565 50  0001 C CNN
-	1    6175 3565
+P 5310 2795
+F 0 "R3" V 5410 2855 50  0000 L CNN
+F 1 "10K" V 5425 2645 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5310 2795 50  0001 C CNN
+F 3 "~" H 5310 2795 50  0001 C CNN
+	1    5310 2795
 	0    1    1    0   
 $EndComp
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R4
 U 1 1 5D662445
-P 6180 3765
-F 0 "R4" V 6280 3825 50  0000 L CNN
-F 1 "10K" V 6295 3615 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6180 3765 50  0001 C CNN
-F 3 "~" H 6180 3765 50  0001 C CNN
-	1    6180 3765
+P 5315 2995
+F 0 "R4" V 5415 3055 50  0000 L CNN
+F 1 "10K" V 5430 2845 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5315 2995 50  0001 C CNN
+F 3 "~" H 5315 2995 50  0001 C CNN
+	1    5315 2995
 	0    1    1    0   
 $EndComp
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R1
 U 1 1 5D6624D7
-P 5875 3640
-F 0 "R1" V 5975 3700 50  0000 L CNN
-F 1 "10K" V 5990 3490 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5875 3640 50  0001 C CNN
-F 3 "~" H 5875 3640 50  0001 C CNN
-	1    5875 3640
+P 5010 2870
+F 0 "R1" V 5110 2930 50  0000 L CNN
+F 1 "10K" V 5125 2720 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5010 2870 50  0001 C CNN
+F 3 "~" H 5010 2870 50  0001 C CNN
+	1    5010 2870
 	-1   0    0    1   
 $EndComp
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R2
 U 1 1 5D66259E
-P 5875 3890
-F 0 "R2" V 5975 3950 50  0000 L CNN
-F 1 "10K" V 5990 3740 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5875 3890 50  0001 C CNN
-F 3 "~" H 5875 3890 50  0001 C CNN
-	1    5875 3890
+P 5010 3120
+F 0 "R2" V 5110 3180 50  0000 L CNN
+F 1 "10K" V 5125 2970 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5010 3120 50  0001 C CNN
+F 3 "~" H 5010 3120 50  0001 C CNN
+	1    5010 3120
 	-1   0    0    1   
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR019
+L licht-rescue:GND-power-licht-rescue #PWR017
 U 1 1 5D662710
-P 5875 4025
-F 0 "#PWR019" H 5875 3775 50  0001 C CNN
-F 1 "GND" V 6025 3975 50  0000 C CNN
-F 2 "" H 5875 4025 50  0001 C CNN
-F 3 "" H 5875 4025 50  0001 C CNN
-	1    5875 4025
+P 5010 3255
+F 0 "#PWR017" H 5010 3005 50  0001 C CNN
+F 1 "GND" V 5160 3205 50  0000 C CNN
+F 2 "" H 5010 3255 50  0001 C CNN
+F 3 "" H 5010 3255 50  0001 C CNN
+	1    5010 3255
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:+12V-power-licht-rescue #PWR018
+L licht-rescue:+12V-power-licht-rescue #PWR016
 U 1 1 5D6638FF
-P 5875 3490
-F 0 "#PWR018" H 5875 3340 50  0001 C CNN
-F 1 "+12V" H 5890 3663 50  0000 C CNN
-F 2 "" H 5875 3490 50  0001 C CNN
-F 3 "" H 5875 3490 50  0001 C CNN
-	1    5875 3490
+P 5010 2720
+F 0 "#PWR016" H 5010 2570 50  0001 C CNN
+F 1 "+12V" H 5025 2893 50  0000 C CNN
+F 2 "" H 5010 2720 50  0001 C CNN
+F 3 "" H 5010 2720 50  0001 C CNN
+	1    5010 2720
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5875 3490 5875 3540
+	5010 2720 5010 2770
 Wire Wire Line
-	5875 3740 5875 3765
+	5010 2970 5010 2995
 Wire Wire Line
-	5875 3990 5875 4025
+	5010 3220 5010 3255
 Wire Wire Line
-	6080 3765 5875 3765
-Connection ~ 5875 3765
+	5215 2995 5010 2995
+Connection ~ 5010 2995
 Wire Wire Line
-	5875 3765 5875 3790
+	5010 2995 5010 3020
 Wire Wire Line
-	6280 3765 6325 3765
+	5415 2995 5460 2995
 Wire Wire Line
-	6275 3565 6325 3565
+	5410 2795 5460 2795
 Wire Wire Line
-	7945 2800 7945 3190
-Wire Wire Line
-	7945 3190 6075 3190
-Wire Wire Line
-	6075 3190 6075 3565
-Connection ~ 7945 2800
-Wire Wire Line
-	7945 2800 7950 2800
+	5210 2420 5210 2795
 $Comp
 L licht-rescue:CP_Small-Device-licht-rescue C11
 U 1 1 5D66EE29
-P 7060 3665
-F 0 "C11" V 6990 3490 50  0000 L CNN
-F 1 "10N" V 6945 3590 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm" H 7060 3665 50  0001 C CNN
-F 3 "~" H 7060 3665 50  0001 C CNN
-	1    7060 3665
+P 6195 2895
+F 0 "C11" V 6125 2720 50  0000 L CNN
+F 1 "10N" V 6080 2820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6195 2895 50  0001 C CNN
+F 3 "~" H 6195 2895 50  0001 C CNN
+	1    6195 2895
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6925 3665 6960 3665
+	6060 2895 6095 2895
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R10
 U 1 1 5D670C94
-P 7490 3765
-F 0 "R10" V 7590 3825 50  0000 L CNN
-F 1 "220K" V 7605 3615 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7490 3765 50  0001 C CNN
-F 3 "~" H 7490 3765 50  0001 C CNN
-	1    7490 3765
+P 6625 2995
+F 0 "R10" V 6350 3135 50  0000 L CNN
+F 1 "220K" V 6255 3080 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6625 2995 50  0001 C CNN
+F 3 "~" H 6625 2995 50  0001 C CNN
+	1    6625 2995
 	-1   0    0    1   
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR022
+L licht-rescue:GND-power-licht-rescue #PWR020
 U 1 1 5D670DC1
-P 7260 4110
-F 0 "#PWR022" H 7260 3860 50  0001 C CNN
-F 1 "GND" V 7410 4060 50  0000 C CNN
-F 2 "" H 7260 4110 50  0001 C CNN
-F 3 "" H 7260 4110 50  0001 C CNN
-	1    7260 4110
+P 6395 3340
+F 0 "#PWR020" H 6395 3090 50  0001 C CNN
+F 1 "GND" V 6545 3290 50  0000 C CNN
+F 2 "" H 6395 3340 50  0001 C CNN
+F 3 "" H 6395 3340 50  0001 C CNN
+	1    6395 3340
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR025
+L licht-rescue:GND-power-licht-rescue #PWR023
 U 1 1 5D670E0C
-P 7490 3975
-F 0 "#PWR025" H 7490 3725 50  0001 C CNN
-F 1 "GND" V 7640 3925 50  0000 C CNN
-F 2 "" H 7490 3975 50  0001 C CNN
-F 3 "" H 7490 3975 50  0001 C CNN
-	1    7490 3975
+P 6625 3205
+F 0 "#PWR023" H 6625 2955 50  0001 C CNN
+F 1 "GND" V 6775 3155 50  0000 C CNN
+F 2 "" H 6625 3205 50  0001 C CNN
+F 3 "" H 6625 3205 50  0001 C CNN
+	1    6625 3205
 	1    0    0    -1  
 $EndComp
 $Comp
 L pspice:DIODE D4
 U 1 1 5D671062
-P 7260 3865
-F 0 "D4" V 7214 3993 50  0000 L CNN
-F 1 "1N4148" V 7305 3993 50  0000 L CNN
-F 2 "" H 7260 3865 50  0001 C CNN
-F 3 "~" H 7260 3865 50  0001 C CNN
-	1    7260 3865
+P 6395 3095
+F 0 "D4" V 6349 3223 50  0000 L CNN
+F 1 "1N4148" V 6610 2695 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" H 6395 3095 50  0001 C CNN
+F 3 "~" H 6395 3095 50  0001 C CNN
+	1    6395 3095
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7160 3665 7260 3665
+	6295 2895 6395 2895
 Wire Wire Line
-	7260 3665 7490 3665
-Connection ~ 7260 3665
+	6395 2895 6625 2895
+Connection ~ 6395 2895
 Wire Wire Line
-	7490 3665 7545 3665
-Connection ~ 7490 3665
+	6625 2895 6680 2895
+Connection ~ 6625 2895
 Wire Wire Line
-	7490 3865 7490 3975
+	6625 3095 6625 3205
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R13
 U 1 1 5D678A43
-P 8690 3565
-F 0 "R13" H 8749 3611 50  0000 L CNN
-F 1 "1K" H 8749 3520 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8690 3565 50  0001 C CNN
-F 3 "~" H 8690 3565 50  0001 C CNN
-	1    8690 3565
+P 7825 2795
+F 0 "R13" H 7884 2841 50  0000 L CNN
+F 1 "1K" H 7884 2750 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7825 2795 50  0001 C CNN
+F 3 "~" H 7825 2795 50  0001 C CNN
+	1    7825 2795
 	0    -1   -1   0   
 $EndComp
 $Comp
 L erthenvar:AUDIO-JACKERTHENVAR M2
 U 1 1 5D678A4A
-P 9165 3765
-F 0 "M2" H 8838 3727 45  0000 R CNN
-F 1 "AUDIO-JACKERTHENVAR" H 9165 3765 45  0001 L BNN
-F 2 "erthenvar_ERTHENVAR-JACK" H 9195 3915 20  0001 C CNN
-F 3 "" H 9165 3765 50  0001 C CNN
-	1    9165 3765
+P 8300 2995
+F 0 "M2" H 7973 2957 45  0000 R CNN
+F 1 "AUDIO-JACKERTHENVAR" H 8300 2995 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 8330 3145 20  0001 C CNN
+F 3 "" H 8300 2995 50  0001 C CNN
+	1    8300 2995
 	-1   0    0    1   
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR028
+L licht-rescue:GND-power-licht-rescue #PWR026
 U 1 1 5D678A51
-P 8820 3865
-F 0 "#PWR028" H 8820 3615 50  0001 C CNN
-F 1 "GND" H 8820 3980 50  0000 C CNN
-F 2 "" H 8820 3865 50  0001 C CNN
-F 3 "" H 8820 3865 50  0001 C CNN
-	1    8820 3865
+P 7955 3095
+F 0 "#PWR026" H 7955 2845 50  0001 C CNN
+F 1 "GND" H 7955 3210 50  0000 C CNN
+F 2 "" H 7955 3095 50  0001 C CNN
+F 3 "" H 7955 3095 50  0001 C CNN
+	1    7955 3095
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8820 3865 8865 3865
+	7955 3095 8000 3095
 Wire Wire Line
-	8790 3565 8805 3565
+	7925 2795 7940 2795
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R12
 U 1 1 5D67E6AA
-P 8590 3775
-F 0 "R12" H 8649 3821 50  0000 L CNN
-F 1 "1K" H 8649 3730 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8590 3775 50  0001 C CNN
-F 3 "~" H 8590 3775 50  0001 C CNN
-	1    8590 3775
+P 7725 3005
+F 0 "R12" H 7784 3051 50  0000 L CNN
+F 1 "1K" H 7784 2960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7725 3005 50  0001 C CNN
+F 3 "~" H 7725 3005 50  0001 C CNN
+	1    7725 3005
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR027
+L licht-rescue:GND-power-licht-rescue #PWR025
 U 1 1 5D67E758
-P 8590 3915
-F 0 "#PWR027" H 8590 3665 50  0001 C CNN
-F 1 "GND" H 8590 4030 50  0000 C CNN
-F 2 "" H 8590 3915 50  0001 C CNN
-F 3 "" H 8590 3915 50  0001 C CNN
-	1    8590 3915
+P 7725 3145
+F 0 "#PWR025" H 7725 2895 50  0001 C CNN
+F 1 "GND" H 7725 3260 50  0000 C CNN
+F 2 "" H 7725 3145 50  0001 C CNN
+F 3 "" H 7725 3145 50  0001 C CNN
+	1    7725 3145
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8590 3875 8590 3915
+	7725 3105 7725 3145
 Wire Wire Line
-	8590 3675 8805 3675
+	7725 2905 7940 2905
 Wire Wire Line
-	8805 3675 8805 3565
-Connection ~ 8805 3565
+	7940 2905 7940 2795
+Connection ~ 7940 2795
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R8
 U 1 1 5D688B17
-P 7325 3410
-F 0 "R8" V 7425 3470 50  0000 L CNN
-F 1 "10K" V 7390 3325 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7325 3410 50  0001 C CNN
-F 3 "~" H 7325 3410 50  0001 C CNN
-	1    7325 3410
+P 6460 2640
+F 0 "R8" V 6560 2700 50  0000 L CNN
+F 1 "10K" V 6525 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6460 2640 50  0001 C CNN
+F 3 "~" H 6460 2640 50  0001 C CNN
+	1    6460 2640
 	-1   0    0    1   
 $EndComp
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R7
 U 1 1 5D688D28
-P 7325 3165
-F 0 "R7" V 7425 3225 50  0000 L CNN
-F 1 "10K" V 7390 3080 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7325 3165 50  0001 C CNN
-F 3 "~" H 7325 3165 50  0001 C CNN
-	1    7325 3165
+P 6460 2395
+F 0 "R7" V 6560 2455 50  0000 L CNN
+F 1 "10K" V 6525 2310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6460 2395 50  0001 C CNN
+F 3 "~" H 6460 2395 50  0001 C CNN
+	1    6460 2395
 	-1   0    0    1   
 $EndComp
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR023
+L licht-rescue:GND-power-licht-rescue #PWR021
 U 1 1 5D688DDA
-P 7425 3065
-F 0 "#PWR023" H 7425 2815 50  0001 C CNN
-F 1 "GND" H 7425 3180 50  0000 C CNN
-F 2 "" H 7425 3065 50  0001 C CNN
-F 3 "" H 7425 3065 50  0001 C CNN
-	1    7425 3065
+P 6560 2295
+F 0 "#PWR021" H 6560 2045 50  0001 C CNN
+F 1 "GND" H 6560 2410 50  0000 C CNN
+F 2 "" H 6560 2295 50  0001 C CNN
+F 3 "" H 6560 2295 50  0001 C CNN
+	1    6560 2295
 	1    0    0    -1  
 $EndComp
 $Comp
-L licht-rescue:-12V-power-licht-rescue #PWR024
+L licht-rescue:-12V-power-licht-rescue #PWR022
 U 1 1 5D688F87
-P 7440 3435
-F 0 "#PWR024" H 7440 3535 50  0001 C CNN
-F 1 "-12V" H 7455 3608 50  0000 C CNN
-F 2 "" H 7440 3435 50  0001 C CNN
-F 3 "" H 7440 3435 50  0001 C CNN
-	1    7440 3435
+P 6575 2665
+F 0 "#PWR022" H 6575 2765 50  0001 C CNN
+F 1 "-12V" H 6590 2838 50  0000 C CNN
+F 2 "" H 6575 2665 50  0001 C CNN
+F 3 "" H 6575 2665 50  0001 C CNN
+	1    6575 2665
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7325 3065 7425 3065
+	6460 2295 6560 2295
 Wire Wire Line
-	7325 3265 7325 3290
+	6460 2495 6460 2520
 Wire Wire Line
-	7325 3510 7440 3510
+	6460 2740 6575 2740
 Wire Wire Line
-	7440 3510 7440 3435
+	6575 2740 6575 2665
 Wire Wire Line
-	7545 3465 7545 3290
+	6680 2695 6680 2520
 Wire Wire Line
-	7545 3290 7325 3290
-Connection ~ 7325 3290
+	6680 2520 6460 2520
+Connection ~ 6460 2520
 Wire Wire Line
-	7325 3290 7325 3310
+	6460 2520 6460 2540
 Wire Wire Line
-	7260 4065 7260 4110
+	6395 3295 6395 3340
 $Comp
 L pspice:DIODE D5
 U 1 1 5D6966B6
-P 8355 3565
-F 0 "D5" H 8355 3830 50  0000 C CNN
-F 1 "1N4148" H 8355 3739 50  0000 C CNN
-F 2 "" H 8355 3565 50  0001 C CNN
-F 3 "~" H 8355 3565 50  0001 C CNN
-	1    8355 3565
+P 7490 2795
+F 0 "D5" H 7490 3060 50  0000 C CNN
+F 1 "1N4148" H 7490 2969 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 7490 2795 50  0001 C CNN
+F 3 "~" H 7490 2795 50  0001 C CNN
+	1    7490 2795
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8805 3565 8865 3565
+	7940 2795 8000 2795
 Wire Wire Line
-	8145 3565 8155 3565
+	7280 2795 7290 2795
 Wire Wire Line
-	8555 3565 8590 3565
-Text Notes 5635 1725 0    118  ~ 0
-no in, two outs (signal and gate), one pot
+	7690 2795 7725 2795
+Text Notes 4770 955  0    118  ~ 0
+no input, two outs (signal and gate), one pot
+$Comp
+L Amplifier_Operational:TL084 U1
+U 1 1 5D66B40A
+P 5740 1430
+F 0 "U1" H 5740 1797 50  0000 C CNN
+F 1 "TL084" H 5740 1706 50  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 5690 1530 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5790 1630 50  0001 C CNN
+	1    5740 1430
+	1    0    0    -1  
+$EndComp
+Connection ~ 6040 1430
+$Comp
+L Amplifier_Operational:TL084 U1
+U 2 1 5D66B563
+P 6655 1530
+F 0 "U1" H 6655 1897 50  0000 C CNN
+F 1 "TL084" H 6655 1806 50  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 6605 1630 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6705 1730 50  0001 C CNN
+	2    6655 1530
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 3 1 5D66B750
+P 5760 2895
+F 0 "U1" H 5760 3262 50  0000 C CNN
+F 1 "TL084" H 5760 3171 50  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 5710 2995 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5810 3095 50  0001 C CNN
+	3    5760 2895
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 4 1 5D66B87B
+P 6980 2795
+F 0 "U1" H 6980 3162 50  0000 C CNN
+F 1 "TL084" H 6980 3071 50  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 6930 2895 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7030 2995 50  0001 C CNN
+	4    6980 2795
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 5 1 5D66E3DA
+P 1745 1950
+F 0 "U1" H 1703 1996 50  0000 L CNN
+F 1 "TL084" H 1703 1905 50  0000 L CNN
+F 2 "SMD_Packages:SO-16-N" H 1695 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1795 2150 50  0001 C CNN
+	5    1745 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7080 2030 7085 2030
+Wire Wire Line
+	6935 2030 7080 2030
+Connection ~ 7080 2030
+Wire Wire Line
+	7080 2030 7080 2420
+Wire Wire Line
+	7080 2420 5210 2420
+Text Notes 7875 2315 0    79   ~ 0
+tested/working!
 $EndSCHEMATC
