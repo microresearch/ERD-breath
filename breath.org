@@ -299,7 +299,7 @@ who
 
 
 
-** blurb/manual as panel or as????
+** blurb/manual as fake PGM page
 
 The method is natural, breathing in and breathing out, keeping the
 orders of the method, increasing and decreasing. And all things by
@@ -308,72 +308,67 @@ neglected, the Nature is transformed. For the Nature, turning on
 itself, is changed. And the Nature is both the nature of the virtue
 and the bond of the world.
 
-[Zosimos of Panoplis. Text=the composition...]
+[Visions. Zosimos of Panoplis.]
 
 They behold but a brief span of a life that is no life, and, doomed
 to swift death, are borne up and fly off like smoke
 
 [Fragments of Empedocles]
 
-ERD/BREATH is designed for the precise voltage control (CV) of heat and thus smoke
-production within a modular, eurorack setting. 
+ERD/BREATH is designed for the precise voltage control (CV) of heat
+and thus smoke production within a modular, eurorack setting.
 
 ERD/BREATH allows for controlled summoning and nourishment of
 (artificial and benevolent) demons, for the offering of sacrificial
 vapours, and for any modular use of multiple incenses or other
-smoke-producing resins, herbs and substances. A small sample of sage
-is included for preliminary cleansing of the modular.
+smoke-producing resins, herbs and natural substances. A small sample
+of sage is included for preliminary cleansing of the modular environ.
 
-The burnt offering is a wolf's eye, storax gum, cassia, balsam gum and
-whatever is valued among the spices.
+/The burnt offering is a wolf's eye, storax gum, cassia, balsam gum and
+whatever is valued among the spices./
 
 One CV input is provided with amplification (upper) and offset knobs
 (lower) for more precise control of heat and smoke modulations. Slowly
-changing CV inputs, pulses and slopes are suggested. 
-
-One DC JACK output (right hand) is supplied for connection to an
-external heating element (a 12cm+ coil of 0.2mm nichrome wire for
-example).
+changing CV inputs, pulses and slopes are suggested. An external
+heating element (a minimum of 12cm coil of 0.2mm nichrome wire for
+example) can be connected to the right hand DC JACK.
 
 ERD/BREATH does not itself produce amplified sound but could be paired
 with a contact mic or Mikrophonie module, or used with a light to
 sound setup.
 
-This module requires a 12-15V, 2A+ brick power supply with a centre
-positive 2.1mm DC jack plug. This is not included.  (example psu)
+This module requires a 12-15V, 40W+ brick power supply with a centre
+positive 2.1mm DC jack plug (eg. MEAN WELL GST40A12 Desktop power
+supply). This is not included. The power is plugged on the left side
+DC JACK.
 
-The power is plugged on the left side DC JACK.
-
-It is definitely not advised to leave the module connected to this
+It is definitely not advised to leave the module connected to the
 external supply whilst the modular is unattended.
 
 *** Technical and HOWTO
 
 8HP, XXmA at +12V, XXmA at -12V, 0mA at 5v. One CV input, Xmm deep. One output for an external heating element.
 
-This module requires a 12-15V, 2A+ brick power supply with a centre positive 2.1mm DC jack plug. This is not included.
+This module requires a 12V, minimum 2A brick power supply with a centre positive 2.1mm DC jack plug. This is not included.
 
-Manual, code and design files at: 
-
-
-*** reading list/bibliography
-
-In his Letter to Anebo, Porphyry implies that theurgists are confused about the nature of
-the gods, since they seem to hold that immaterial gods are attracted by material sacrifices
-(Iamblichus, De Mysteriis, 211.19-212.3, ed. des Places). In On the Abstinence of Animal Food
-
-PGM
-
-Zosimos
-
-De Abstinentia
-
-Fragments of Empedocles 
-
-Skinner
+Manual, code and design files at: https://github.com/microresearch/ERD-breath 
 
 
+*** Reading list
 
+The Greek Magical Papyri in Translation, Betz, H. D. et al.
+
+The Fragments of Empedocles .
+
+Becoming Gold, Grimes, S.
+
+De Mysteriis, Iamblichus.
+
+De Abstinentia ab Esu Animalium, Porphyry.
+
+Techniques of Graeco-Egyptian Magic, Skinner, S.
+
+Visions of Zosimos, Zosimos of Panipolis.
 
 ** add incenses also // sage/copal
 
@@ -390,3 +385,12 @@ postage/paypal 30
 
 total costs: 60 each - so say 195 each
 
+** light module to accompany
+
+- cross slit at front with BPW34 beneath - width of slit? say 0.8mm
+- 10pf in feedback for HF first stage
+- 2 stages - see also https://github.com/TomWhitwell/Magnetophon/blob/master/Magnetophon_Schematic.pdf - too much gain maybe...
+- first stage with 10k as in http://www.1010.co.uk/org/notes.html 2nd stage with 100K and 5k 
+- same front as breath panel but all in gold ouroboros
+- one volume control pot 50K - check footprint
+- signal out, gate out
