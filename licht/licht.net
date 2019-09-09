@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /root/projects/ERD_MODULES/breath/licht/licht.sch)
-    (date "Wed 28 Aug 2019 18:06:30 CEST")
+    (date "Wed 28 Aug 2019 22:24:26 CEST")
     (tool "Eeschema (6.0.0-rc1-dev-209-g91e3d21d6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -101,7 +101,7 @@
       (tstamp 5D65118B))
     (comp (ref RV1)
       (value 100K)
-      (footprint Potentiometers:Potentiometer_Alps_RK09K_Vertical)
+      (footprint Potentiometers:Potentiometer_Alps_RK09K_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part R_POT) (description Potentiometer))
       (sheetpath (names /) (tstamps /))

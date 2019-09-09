@@ -362,7 +362,7 @@ U 1 1 5D653E9E
 P 6935 1880
 F 0 "RV1" V 6728 1880 50  0000 C CNN
 F 1 "100K" V 6819 1880 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK09K_Vertical" H 6935 1880 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 6935 1880 50  0001 C CNN
 F 3 "~" H 6935 1880 50  0001 C CNN
 	1    6935 1880
 	0    1    1    0   
