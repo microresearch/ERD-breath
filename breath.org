@@ -333,7 +333,7 @@ example) can be connected to the right hand DC JACK.
 
 ERD/BREATH does not itself produce amplified sound but could be paired
 with a contact mic or Mikrophonie module, or used with a light to
-sound setup.
+sound setup (forthcoming ERD/LICHT).
 
 This module requires a 12-15V, 40W+ brick power supply with a centre
 positive 2.1mm DC jack plug (eg. MEAN WELL GST40A12 Desktop power
@@ -345,7 +345,7 @@ external supply whilst the modular is unattended.
 
 *** Technical and HOWTO
 
-8HP, 40mA at +12V, 8mA at -12V, 0mA at 5v. One CV input, Xmm deep. One output for an external heating element.
+8HP, 40mA at +12V, 8mA at -12V, 0mA at 5v. One CV input, 24mm deep, 15mm high. One output for an external heating element.
 
 This module requires a 12V, minimum 2A brick power supply with a centre positive 2.1mm DC jack plug. This is not included.
 
