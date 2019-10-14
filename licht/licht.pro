@@ -1,6 +1,6 @@
-update=Mon 26 Aug 2019 13:36:50 CEST
+update=Tue 10 Sep 2019 22:04:00 CEST
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -29,6 +39,8 @@ MinMicroViaDiameter=0.508
 MinMicroViaDrill=0.127
 MinHoleToHole=0.25
 TrackWidth1=0.2032
+TrackWidth2=0.4
+TrackWidth3=0.6
 ViaDiameter1=0.889
 ViaDrill1=0.635
 dPairWidth1=0.2032
@@ -63,25 +75,3 @@ Type=0
 [pcbnew/Layer.B.Cu]
 Name=Back
 Type=0
-[pcbnew/Netclasses]
-[pcbnew/Netclasses/1]
-Name=thoicker
-Clearance=0.254
-TrackWidth=1
-ViaDiameter=0.889
-ViaDrill=0.635
-uViaDiameter=0.508
-uViaDrill=0.127
-dPairWidth=1
-dPairGap=0.25
-dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

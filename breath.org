@@ -335,7 +335,7 @@ example) can be connected to the right hand DC JACK.
 
 ERD/BREATH does not itself produce amplified sound but could be paired
 with a contact mic or Mikrophonie module, or used with a light to
-sound setup.
+sound setup (forthcoming ERD/LICHT).
 
 This module requires a 12-15V, 40W+ brick power supply with a centre
 positive 2.1mm DC jack plug (eg. MEAN WELL GST40A12 Desktop power
@@ -347,18 +347,17 @@ external supply whilst the modular is unattended.
 
 *** Technical and HOWTO
 
-8HP, XXmA at +12V, XXmA at -12V, 0mA at 5v. One CV input, Xmm deep. One output for an external heating element.
+8HP, 40mA at +12V, 8mA at -12V, 0mA at 5v. One CV input, 24mm deep, 15mm high. One output for an external heating element.
 
 This module requires a 12V, minimum 2A brick power supply with a centre positive 2.1mm DC jack plug. This is not included.
 
 Manual, code and design files at: https://github.com/microresearch/ERD-breath 
 
-
 *** Reading list
 
 The Greek Magical Papyri in Translation, Betz, H. D. et al.
 
-The Fragments of Empedocles .
+The Fragments of Empedocles.
 
 Becoming Gold, Grimes, S.
 
@@ -386,6 +385,8 @@ postage/paypal 30
 total costs: 60 each - so say 195 each
 
 ** light module to accompany
+
+slit and gold images; egerton 845
 
 - cross slit at front with BPW34 beneath - width of slit? say 0.8mm
 - 10pf in feedback for HF first stage
