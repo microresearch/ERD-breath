@@ -378,13 +378,13 @@ bolts=26for100=/nichrome = 5
 
 say 30 each
 
-postage/paypal 30
+postage/paypal 30 // manual?
 
-total costs: 60 each - so say 195 each
+total costs: 60 each - so say 195 each// 135x50edition=6750
 
 ** light module to accompany
 
-slit and gold images; egerton 845
+slit and gold images; egerton 845, manual???
 
 - cross slit at front with BPW34 beneath - width of slit? say 0.8mm
 - 10pf in feedback for HF first stage
@@ -393,3 +393,5 @@ slit and gold images; egerton 845
 - same front as breath panel but all in gold ouroboros
 - one volume control pot 50K - check footprint
 - signal out, gate out
+
+price: 35 costs each say 145 each module 110x50edition=5500 = 12k both
