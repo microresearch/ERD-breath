@@ -498,19 +498,8 @@ Wire Wire Line
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R3
 U 1 1 5D66232D
-P 5310 2795
-F 0 "R3" V 5410 2855 50  0000 L CNN
-F 1 "10K" V 5425 2645 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5310 2795 50  0001 C CNN
-F 3 "~" H 5310 2795 50  0001 C CNN
-	1    5310 2795
-	0    1    1    0   
-$EndComp
-$Comp
-L licht-rescue:R_Small-Device-licht-rescue R4
-U 1 1 5D662445
 P 5315 2995
-F 0 "R4" V 5415 3055 50  0000 L CNN
+F 0 "R3" V 5415 3055 50  0000 L CNN
 F 1 "10K" V 5430 2845 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 5315 2995 50  0001 C CNN
 F 3 "~" H 5315 2995 50  0001 C CNN
@@ -518,66 +507,75 @@ F 3 "~" H 5315 2995 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
+L licht-rescue:R_Small-Device-licht-rescue R4
+U 1 1 5D662445
+P 5310 2795
+F 0 "R4" V 5410 2855 50  0000 L CNN
+F 1 "10K" V 5425 2645 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5310 2795 50  0001 C CNN
+F 3 "~" H 5310 2795 50  0001 C CNN
+	1    5310 2795
+	0    1    1    0   
+$EndComp
+$Comp
 L licht-rescue:R_Small-Device-licht-rescue R1
 U 1 1 5D6624D7
-P 5010 2870
-F 0 "R1" V 5110 2930 50  0000 L CNN
-F 1 "10K" V 5125 2720 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5010 2870 50  0001 C CNN
-F 3 "~" H 5010 2870 50  0001 C CNN
-	1    5010 2870
+P 5005 2670
+F 0 "R1" V 5105 2730 50  0000 L CNN
+F 1 "10K" V 5120 2520 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5005 2670 50  0001 C CNN
+F 3 "~" H 5005 2670 50  0001 C CNN
+	1    5005 2670
 	-1   0    0    1   
 $EndComp
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R2
 U 1 1 5D66259E
-P 5010 3120
-F 0 "R2" V 5110 3180 50  0000 L CNN
-F 1 "2K" V 4920 3100 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5010 3120 50  0001 C CNN
-F 3 "~" H 5010 3120 50  0001 C CNN
-	1    5010 3120
+P 5005 2920
+F 0 "R2" V 5105 2980 50  0000 L CNN
+F 1 "2K" V 4915 2900 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5005 2920 50  0001 C CNN
+F 3 "~" H 5005 2920 50  0001 C CNN
+	1    5005 2920
 	-1   0    0    1   
 $EndComp
 $Comp
 L licht-rescue:GND-power-licht-rescue #PWR017
 U 1 1 5D662710
-P 5010 3255
-F 0 "#PWR017" H 5010 3005 50  0001 C CNN
-F 1 "GND" V 5160 3205 50  0000 C CNN
-F 2 "" H 5010 3255 50  0001 C CNN
-F 3 "" H 5010 3255 50  0001 C CNN
-	1    5010 3255
+P 5005 3055
+F 0 "#PWR017" H 5005 2805 50  0001 C CNN
+F 1 "GND" V 5155 3005 50  0000 C CNN
+F 2 "" H 5005 3055 50  0001 C CNN
+F 3 "" H 5005 3055 50  0001 C CNN
+	1    5005 3055
 	1    0    0    -1  
 $EndComp
 $Comp
 L licht-rescue:+12V-power-licht-rescue #PWR016
 U 1 1 5D6638FF
-P 5010 2720
-F 0 "#PWR016" H 5010 2570 50  0001 C CNN
-F 1 "+12V" H 5025 2893 50  0000 C CNN
-F 2 "" H 5010 2720 50  0001 C CNN
-F 3 "" H 5010 2720 50  0001 C CNN
-	1    5010 2720
+P 5005 2520
+F 0 "#PWR016" H 5005 2370 50  0001 C CNN
+F 1 "+12V" H 5020 2693 50  0000 C CNN
+F 2 "" H 5005 2520 50  0001 C CNN
+F 3 "" H 5005 2520 50  0001 C CNN
+	1    5005 2520
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5010 2720 5010 2770
+	5005 2520 5005 2570
 Wire Wire Line
-	5010 2970 5010 2995
+	5005 2770 5005 2795
 Wire Wire Line
-	5010 3220 5010 3255
+	5005 3020 5005 3055
 Wire Wire Line
-	5215 2995 5010 2995
-Connection ~ 5010 2995
+	5210 2795 5005 2795
+Connection ~ 5005 2795
 Wire Wire Line
-	5010 2995 5010 3020
+	5005 2795 5005 2820
 Wire Wire Line
 	5415 2995 5460 2995
 Wire Wire Line
 	5410 2795 5460 2795
-Wire Wire Line
-	5210 2420 5210 2795
 $Comp
 L licht-rescue:CP_Small-Device-licht-rescue C11
 U 1 1 5D66EE29
@@ -847,12 +845,6 @@ Wire Wire Line
 	6935 2030 7080 2030
 Connection ~ 7080 2030
 Wire Wire Line
-	7080 2030 7080 2420
-Wire Wire Line
-	7080 2420 5210 2420
-Text Notes 7875 2315 0    79   ~ 0
-tested/working!
-Wire Wire Line
 	6040 1430 6355 1430
 Wire Wire Line
 	6395 2895 6395 2950
@@ -862,4 +854,20 @@ Wire Wire Line
 	7280 2795 7340 2795
 Wire Wire Line
 	7640 2795 7725 2795
+Text Notes 4435 2305 0    102  ~ 0
+re-test>
+Text Notes 2455 3560 0    118  ~ 0
+should be input on - \nchanged now but still to test
+Wire Wire Line
+	6640 2135 6640 2425
+Wire Wire Line
+	6640 2425 7080 2425
+Wire Wire Line
+	7080 2030 7080 2425
+Wire Wire Line
+	5105 2995 5105 2135
+Wire Wire Line
+	5105 2135 6640 2135
+Wire Wire Line
+	5105 2995 5215 2995
 $EndSCHEMATC
