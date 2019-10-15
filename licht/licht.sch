@@ -327,21 +327,6 @@ Wire Wire Line
 	6040 1975 6040 1705
 Connection ~ 6040 1705
 $Comp
-L licht-rescue:CP_Small-Device-licht-rescue C10
-U 1 1 5D65118B
-P 6185 1430
-F 0 "C10" V 6115 1255 50  0000 L CNN
-F 1 "100N" V 6070 1355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6185 1430 50  0001 C CNN
-F 3 "~" H 6185 1430 50  0001 C CNN
-	1    6185 1430
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6040 1430 6085 1430
-Wire Wire Line
-	6285 1430 6355 1430
-$Comp
 L licht-rescue:GND-power-licht-rescue #PWR019
 U 1 1 5D652C4F
 P 6355 1935
@@ -548,7 +533,7 @@ L licht-rescue:R_Small-Device-licht-rescue R2
 U 1 1 5D66259E
 P 5010 3120
 F 0 "R2" V 5110 3180 50  0000 L CNN
-F 1 "10K" V 5125 2970 50  0000 L CNN
+F 1 "2K" V 4920 3100 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 5010 3120 50  0001 C CNN
 F 3 "~" H 5010 3120 50  0001 C CNN
 	1    5010 3120
@@ -640,15 +625,15 @@ F 3 "" H 6625 3205 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D4
+L Diode:1N4148 D4
 U 1 1 5D671062
-P 6395 3095
-F 0 "D4" V 6349 3223 50  0000 L CNN
-F 1 "1N4148" V 6610 2695 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6395 3095 50  0001 C CNN
-F 3 "~" H 6395 3095 50  0001 C CNN
-	1    6395 3095
-	0    1    1    0   
+P 6395 3100
+F 0 "D4" V 6349 3228 50  0000 L CNN
+F 1 "1N4148" V 6610 2700 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" H 6395 3100 50  0001 C CNN
+F 3 "~" H 6395 3100 50  0001 C CNN
+	1    6395 3100
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6295 2895 6395 2895
@@ -785,10 +770,8 @@ Wire Wire Line
 Connection ~ 6460 2520
 Wire Wire Line
 	6460 2520 6460 2540
-Wire Wire Line
-	6395 3295 6395 3340
 $Comp
-L pspice:DIODE D5
+L Diode:1N4148 D5
 U 1 1 5D6966B6
 P 7490 2795
 F 0 "D5" H 7490 3060 50  0000 C CNN
@@ -796,14 +779,10 @@ F 1 "1N4148" H 7490 2969 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 7490 2795 50  0001 C CNN
 F 3 "~" H 7490 2795 50  0001 C CNN
 	1    7490 2795
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7940 2795 8000 2795
-Wire Wire Line
-	7280 2795 7290 2795
-Wire Wire Line
-	7690 2795 7725 2795
 Text Notes 4770 955  0    118  ~ 0
 no input, two outs (signal and gate), one pot
 $Comp
@@ -812,7 +791,7 @@ U 1 1 5D66B40A
 P 5740 1430
 F 0 "U1" H 5740 1797 50  0000 C CNN
 F 1 "TL084" H 5740 1706 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 5690 1530 50  0001 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 5690 1530 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5790 1630 50  0001 C CNN
 	1    5740 1430
 	1    0    0    -1  
@@ -824,7 +803,7 @@ U 2 1 5D66B563
 P 6655 1530
 F 0 "U1" H 6655 1897 50  0000 C CNN
 F 1 "TL084" H 6655 1806 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 6605 1630 50  0001 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 6605 1630 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6705 1730 50  0001 C CNN
 	2    6655 1530
 	1    0    0    -1  
@@ -835,7 +814,7 @@ U 3 1 5D66B750
 P 5760 2895
 F 0 "U1" H 5760 3262 50  0000 C CNN
 F 1 "TL084" H 5760 3171 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 5710 2995 50  0001 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 5710 2995 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5810 3095 50  0001 C CNN
 	3    5760 2895
 	1    0    0    -1  
@@ -846,7 +825,7 @@ U 4 1 5D66B87B
 P 6980 2795
 F 0 "U1" H 6980 3162 50  0000 C CNN
 F 1 "TL084" H 6980 3071 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 6930 2895 50  0001 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 6930 2895 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7030 2995 50  0001 C CNN
 	4    6980 2795
 	1    0    0    -1  
@@ -857,7 +836,7 @@ U 5 1 5D66E3DA
 P 1745 1950
 F 0 "U1" H 1703 1996 50  0000 L CNN
 F 1 "TL084" H 1703 1905 50  0000 L CNN
-F 2 "SMD_Packages:SO-16-N" H 1695 2050 50  0001 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 1695 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1795 2150 50  0001 C CNN
 	5    1745 1950
 	1    0    0    -1  
@@ -873,4 +852,14 @@ Wire Wire Line
 	7080 2420 5210 2420
 Text Notes 7875 2315 0    79   ~ 0
 tested/working!
+Wire Wire Line
+	6040 1430 6355 1430
+Wire Wire Line
+	6395 2895 6395 2950
+Wire Wire Line
+	6395 3250 6395 3340
+Wire Wire Line
+	7280 2795 7340 2795
+Wire Wire Line
+	7640 2795 7725 2795
 $EndSCHEMATC
