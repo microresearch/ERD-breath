@@ -54,7 +54,7 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 7 7)
+    (pad_size 6.8 6.8)
     (pad_drill 6.4)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
@@ -100,7 +100,7 @@
     (uvia_drill 0.127)
   )
 
-  (module panel_jack (layer Front) (tedit 5D77EEEF) (tstamp 5D66FA5E)
+  (module panel_jack (layer Front) (tedit 5D7B73CB) (tstamp 5D66FA5E)
     (at 149.09 129.75)
     (descr "Connecteurs 1 pin")
     (tags "CONN DEV")
@@ -115,7 +115,7 @@
     (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.3048))
     (fp_line (start -1.27 -1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.3175))
     (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.3175))
-    (pad 1 thru_hole circle (at -0.12 -0.41) (size 7 7) (drill 6.4) (layers *.Cu *.Mask F.SilkS))
+    (pad 1 thru_hole circle (at -0.12 -0.41) (size 6.8 6.8) (drill 6.4) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module SIL-1 (layer Front) (tedit 5D124225) (tstamp 550B30D7)
@@ -154,7 +154,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.4 3.4) (drill 3.2004) (layers *.Cu *.Mask))
   )
 
-  (module SIL-1 (layer Front) (tedit 5D124263) (tstamp 574B22B1)
+  (module SIL-1 (layer Front) (tedit 5D7B6F1C) (tstamp 574B22B1)
     (at 142.24 145.16)
     (descr "Connecteurs 1 pin")
     (tags "CONN DEV")
@@ -169,10 +169,10 @@
     (fp_line (start -1.27 -1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.3175))
     (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.3048))
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.3048))
-    (pad 1 thru_hole circle (at 0 0.0127) (size 10 10) (drill 9.40054) (layers *.Cu *.Mask F.SilkS))
+    (pad 1 thru_hole circle (at 0 0.0127) (size 7.5 7.5) (drill 7.1) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module panel_jack (layer Front) (tedit 5D36E1A3) (tstamp 5639225F)
+  (module panel_jack (layer Front) (tedit 5D7B73FB) (tstamp 5639225F)
     (at 135.33 129.29)
     (descr "Connecteurs 1 pin")
     (tags "CONN DEV")
@@ -187,7 +187,7 @@
     (fp_line (start -1.27 -1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.3175))
     (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.3048))
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.3048))
-    (pad 1 thru_hole circle (at -0.07874 0.05334) (size 7 7) (drill 6.4) (layers *.Cu *.Mask F.SilkS))
+    (pad 1 thru_hole circle (at -0.07874 0.05) (size 6.8 6.8) (drill 6.4) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module ERD_MODULES:erdsymbol (layer Front) (tedit 0) (tstamp 5CD19CF8)
