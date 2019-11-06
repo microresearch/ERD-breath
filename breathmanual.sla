@@ -32,7 +32,7 @@
             <Separation Name="Yellow"/>
             <Separation Name="Black"/>
         </Printer>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="Artifex PS RGB Profile" ImageP="Artifex PS RGB Profile" PrintP="Artifex CMYK SWOP Profile" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="0" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="Artifex PS RGB Profile" ImageP="Artifex PS RGB Profile" PrintP="Artifex CMYK SWOP Profile" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
@@ -84,9 +84,10 @@
             <ITEXT FONT="EB Garamond 08 Regular" FONTSIZE="11" CH="One CV input is provided with amplification (upper) and offset knobs (lower) for more precise control of heat and smoke modulations. Slowly changing CV inputs, pulses and slopes are suggested. An external heating element (a minimum of 12cm coil of 0.2mm nichrome wire for example) can be connected to the right hand DC JACK."/>
             <para/>
             <para/>
-            <ITEXT FONT="EB Garamond 08 Regular" FONTSIZE="11" CH="ERD/BREATH does not itself produce amplified sound but could be paired with a contact mic or Mikrophonie module, or used with a light to sound setup."/>
+            <ITEXT FONT="EB Garamond 08 Regular" FONTSIZE="11" CH="ERD/BREATH does not itself produce amplified sound but could be paired with a contact mic or Mikrophonie module, or used with a light to sound setup such as the ERD/LICHT."/>
             <para/>
-            <ITEXT FONT="EB Garamond 08 Regular" FONTSIZE="11" CH="This module requires a 12-15V, 40W+ brick power supply with a centre positive 2.1mm DC jack plug (eg. MEAN WELL GST40A12 Desktop power supply). This is not included. The power is plugged on the left side DC JACK."/>
+            <para/>
+            <ITEXT FONT="EB Garamond 08 Regular" FONTSIZE="11" CH="This module requires a 12V, 40W+ brick power supply with a centre positive 2.1mm DC jack plug (eg. MEAN WELL GST40A12 Desktop power supply). This is not included. The power is plugged on the left side DC JACK."/>
             <para/>
             <para/>
             <ITEXT FONT="EB Garamond 08 Regular" FONTSIZE="11" CH="It is definitely not advised to leave the module connected to the external supply whilst the modular is unattended."/>
