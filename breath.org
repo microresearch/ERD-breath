@@ -1,5 +1,7 @@
 * breath/smoke module notes
 
+we need DC-EBU 072339 DC panel jack – 2.1mm pin, 24 V DC/5 A - threaded
+
 8HP, 40.6 MM
 
 - 2x TIP3055 for power
