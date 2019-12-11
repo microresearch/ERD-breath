@@ -240,7 +240,7 @@ L licht-rescue:R_Small-Device-licht-rescue R6
 U 1 1 5CF5BC4D
 P 7225 1895
 F 0 "R6" H 7284 1941 50  0000 L CNN
-F 1 "1K" H 7284 1850 50  0000 L CNN
+F 1 "470R" H 7284 1850 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 7225 1895 50  0001 C CNN
 F 3 "~" H 7225 1895 50  0001 C CNN
 	1    7225 1895
@@ -488,7 +488,7 @@ L licht-rescue:R_Small-Device-licht-rescue R2
 U 1 1 5D66259E
 P 4545 5440
 F 0 "R2" V 4645 5500 50  0000 L CNN
-F 1 "2K" V 4740 5465 50  0000 L CNN
+F 1 "1K" V 4740 5465 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4545 5440 50  0001 C CNN
 F 3 "~" H 4545 5440 50  0001 C CNN
 	1    4545 5440
@@ -549,7 +549,7 @@ L licht-rescue:R_Small-Device-licht-rescue R10
 U 1 1 5D670C94
 P 6165 5515
 F 0 "R10" V 5890 5655 50  0000 L CNN
-F 1 "220K" V 5795 5600 50  0000 L CNN
+F 1 "200K" V 5795 5600 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6165 5515 50  0001 C CNN
 F 3 "~" H 6165 5515 50  0001 C CNN
 	1    6165 5515
@@ -1048,10 +1048,10 @@ Connection ~ 1645 1640
 Wire Wire Line
 	1645 1640 1645 1650
 $Comp
-L licht-rescue:GND-power-licht-rescue #PWR?
+L licht-rescue:GND-power-licht-rescue #PWR01
 U 1 1 5DCA2CAB
 P 1955 2495
-F 0 "#PWR?" H 1955 2245 50  0001 C CNN
+F 0 "#PWR01" H 1955 2245 50  0001 C CNN
 F 1 "GND" V 1955 2610 50  0000 C CNN
 F 2 "" H 1955 2495 50  0001 C CNN
 F 3 "" H 1955 2495 50  0001 C CNN
@@ -1081,4 +1081,33 @@ Wire Wire Line
 Connection ~ 1650 3710
 Wire Wire Line
 	1650 3710 1650 3730
+$Comp
+L licht-rescue:R_Small-Device-licht-rescue R18
+U 1 1 5DD32C68
+P 6235 1755
+F 0 "R18" H 6294 1801 50  0000 L CNN
+F 1 "100K" H 5960 1770 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6235 1755 50  0001 C CNN
+F 3 "~" H 6235 1755 50  0001 C CNN
+	1    6235 1755
+	-1   0    0    1   
+$EndComp
+$Comp
+L licht-rescue:GND-power-licht-rescue #PWR03
+U 1 1 5DD32D3C
+P 6235 1895
+F 0 "#PWR03" H 6235 1645 50  0001 C CNN
+F 1 "GND" H 6390 1815 50  0000 C CNN
+F 2 "" H 6235 1895 50  0001 C CNN
+F 3 "" H 6235 1895 50  0001 C CNN
+	1    6235 1895
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6235 1855 6235 1895
+Wire Wire Line
+	6280 1430 6280 1655
+Wire Wire Line
+	6280 1655 6235 1655
+Connection ~ 6280 1430
 $EndSCHEMATC

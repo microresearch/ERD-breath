@@ -347,7 +347,8 @@ external supply whilst the modular is unattended.
 
 8HP, 40mA at +12V, 8mA at -12V, 0mA at 5v. One CV input, 24mm deep, 15mm high. One output for an external heating element.
 
-This module requires a 12V, minimum 2A brick power supply with a centre positive 2.1mm DC jack plug. This is not included.
+This module requires a 12V, minimum 2A brick power supply with a centre positive 2.1mm DC jack plug (eg. MEAN WELL GST40A12 Desktop power
+supply). This is not included.
 
 Manual, code and design files at: https://github.com/microresearch/ERD-breath 
 
@@ -394,4 +395,33 @@ slit and gold images; egerton 845, manual???
 - one volume control pot 50K - check footprint
 - signal out, gate out
 
-price: 35 costs each say 145 each module 110x50edition=5500 = 12k both
+// pcbs: 15 
+parts: 6
+mistaken pcbs-10
+post/paypal: 30
+
+globe image somehow
+
+price: was 35 costs each say 145 each module 110x50edition=5500 = 12k both // say 165 with 60 costs
+
+ERD/LICHT transforms and amplifies the oscillations and perturbations
+of photons into the massed movements of electrons, thus electricity
+and perhaps opnly then into sound waves. There is one amplified output
+(range?)  and one gate output (2ms 6v - test?), corresponding to the
+rising edge of a dazzling approach (a disco strobe for
+example). Events can be triggered by excessive photonic eruptions or
+avalanche. Both are under the control of one amplitude knob - in most
+cases, the gate will need this adjustment.
+
+label: out, gate out, amplitude, light sensor.
+
+
+output voltage 18Vpp
+
+gate voltage is 0-5V 2mS
+
+power +12v=13mA
+
+-12v=13mA
+
+trigger threshold should be +2v? -> reduce to 1v with R2 as 1K?
